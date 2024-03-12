@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+r@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
 
 body {
@@ -66,10 +66,6 @@ nav {
     cursor: pointer;
 }
 
-.nav-logo span {
-    color: var(--primary-color);
-}
-
 .nav-links {
     list-style: none;
     display: flex;
@@ -81,10 +77,6 @@ nav {
     padding: 0 1rem;
     color: var(--text-dark);
     transition: 0.3s;
-}
-
-.link a:hover {
-    color: var(--primary-color);
 }
 
 header {
@@ -122,24 +114,11 @@ header {
     gap: 1rem;
 }
 
-.header-content .sub-header {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--primary-color);
-}
-
 .header-content h5 {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
     color: var(--text-dark);
-}
-
-.header-content .action-btns {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 1rem;
 }
 
 .PROYECTO {
