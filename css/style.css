@@ -1,4 +1,4 @@
-r@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
 :root {
     --primary-color: #e4b611;
@@ -16,17 +16,6 @@ r@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&
     box-sizing: border-box;
 }
 
-
-html {
-    background-color: #f2d37d;
-}
-
-body {
-    background-color: #f2d37d;
-}
-
-}
-
 .section-container {
     max-width: var(--max-width);
     margin: auto;
@@ -39,14 +28,14 @@ body {
     justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .section-title {
     font-size: 2rem;
     font-weight: 600;
     color: var(--text-dark);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section-subtitle {
@@ -54,7 +43,6 @@ body {
     color: var(--text-dark);
     max-width: calc(var(--max-width) / 2);
 }
-
 
 .btn {
     padding: 0.75rem 2rem;
@@ -81,13 +69,13 @@ a {
     text-decoration: none;
 }
 
-
 img {
     width: 100%;
+    display: block;
 }
 
 body {
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -110,6 +98,10 @@ nav {
     cursor: pointer;
 }
 
+.nav-logo span {
+    color: var(--primary-color);
+}
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -122,6 +114,12 @@ nav {
     color: var(--text-dark);
     transition: 0.3s;
 }
+
+.link a:hover {
+    color: var(--primary-color);
+}
+
+
 
 header {
     background-color: var(--secondary-color);
