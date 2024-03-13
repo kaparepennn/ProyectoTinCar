@@ -1,5 +1,8 @@
 r@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
+html {
+    background-color: #d6b12e;
+}
 
 body {
     background-color: #d6b12e;
