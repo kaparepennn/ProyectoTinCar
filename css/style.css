@@ -94,18 +94,6 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-
-.nav-logo {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--text-dark);
-    cursor: pointer;
-}
-
-.nav-logo span {
-    color: var(--primary-color);
-}
-
 .nav-links {
     list-style: none;
     display: flex;
@@ -122,8 +110,6 @@ nav {
 .link a:hover {
     color: #e8ac2c;
 }
-
-
 
 header {
     background-color: var(--primary-color);
@@ -156,7 +142,6 @@ header {
 
 .header-image .img-1{
     height: 350px;
-    position: center;
 }
 
 .header-content>div {
