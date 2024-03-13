@@ -39,7 +39,6 @@ body {
 
 img {
     width: 100%;
-    display: block;
 }
 
 body {
@@ -132,4 +131,20 @@ header {
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-dark);
+}
+
+.RESUMEN-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.RESUMEN-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.RESUMEN-subtitle {
+    font-size: 0.7rem;
 }
