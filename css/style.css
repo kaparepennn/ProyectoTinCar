@@ -198,6 +198,9 @@ header {
     font-size: 0.7rem;
 }
 
+.OBJETIVOS {
+    background-color: #f4d185;
+
 .OBJETIVOS-container :is(.section-title, .section-li, .view-all) {
     text-align: center;
     margin-right: auto;
@@ -248,7 +251,7 @@ header {
 }
 
 .footer{
-    background-color: #var(--text-dak);
+    background-color: #f4d185;
 }
 .footer-container{
     display: grid;
