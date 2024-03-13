@@ -152,7 +152,7 @@ header {
     font-size: 0.7rem;
 }
 
-.OBJETIVOS-container :is(.section-title, .section-subtitle, .view-all) {
+.OBJETIVOS-container :is(.section-title, .section-ul, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
