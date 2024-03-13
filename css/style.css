@@ -163,7 +163,7 @@ header {
     color: var(--text-dark);
 }
 
-.PROYECTO-container :is(.section-title, .section-subtitle, .view-all) {
+.RESUMEN-container :is(.section-title, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
