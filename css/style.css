@@ -62,11 +62,11 @@ body {
 
 .btn a{
     text-decoration: none;
-    color: var(--extra-light);
+    color: var(--text-dark);
 }
 
 .btn:hover {
-    background-color: var(--primary-color-dark);
+    background-color: #e8ac2c;
 }
 
 a {
