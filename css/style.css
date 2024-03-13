@@ -169,7 +169,16 @@ header {
     font-weight: 600;
 }
 
+.CONTACTO{
+    background-color: #767268;
 }
+
+.CONTACTO-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
 .footer{
     background-color: var(--text-dark);
 }
