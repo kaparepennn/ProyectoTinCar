@@ -157,10 +157,11 @@ header {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
-    color: var(--text-dark);
+    color: var(--secundary-color)
+    aling-text: center;
 }
 
-.PROYECTO{
+.PROYECTO {
     background-color: #f4d185;
 }
 
@@ -177,7 +178,7 @@ header {
     color: var(--text-dark);
 }
 
-.RESUMEN{
+.RESUMEN {
     background-color: #f4d185;
 }
 
