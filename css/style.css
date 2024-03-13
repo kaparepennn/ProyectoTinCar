@@ -3,10 +3,10 @@
 :root {
     --primary-color: #e4b611;
     --primary-color-dark: #7e5316;
-    --secondary-color: #f5d784;
+    --secondary-color: #73360d;
     --text-dark: #241100;
-    --text-light: #767268;
-    --extra-light: #d29f83;
+    --text-light: #626160;
+    --extra-light: #f8d3be;
     --max-width: 1200px;
 }
 
