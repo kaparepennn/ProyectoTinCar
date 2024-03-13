@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
 body {
-    background-color: #f5c96b;
+    background-color: #f4d185;
 }
 
 :root {
-    --primary-color: #f5c96b;
+    --primary-color: #f4d185;
     --primary-color-dark: #7e5316;
     --secondary-color: #73360d;
     --text-dark: #241100;
@@ -196,7 +196,7 @@ header {
     font-size: 0.7rem;
 }
 
-.OBJETIVOS-container :is(.section-title, .section-ul, .view-all) {
+.OBJETIVOS-container :is(.section-title, .section-li, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -207,14 +207,14 @@ header {
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
-.OBJETIVOS-ul {
+.OBJETIVOS-li {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
 .CONTACTO{
-    background-color: var(--secondary-color);
+    background-color: #626160;
 }
 
 .CONTACTO-container{
@@ -232,7 +232,7 @@ header {
     width: 100%;
     max-width: 400px;
     display: flex;
-    background-color: var(--extra-light);
+    background-color: #626160;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
     border-radius: 5rem;
 }
