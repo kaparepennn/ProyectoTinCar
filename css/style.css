@@ -154,6 +154,11 @@ header {
     justify-content: center;
 }
 
+.header-image .img-1{
+    height: 350px;
+    position: center;
+}
+
 .header-content>div {
     max-width: 400px;
     display: grid;
