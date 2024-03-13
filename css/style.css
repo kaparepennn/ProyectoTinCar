@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
-body {
-    background-color: #f4d185;
-}
-
 :root {
     --primary-color: #f4d185;
     --primary-color-dark: #7e5316;
@@ -41,13 +37,20 @@ body {
     color: var(--text-dark);
     margin-bottom: 1rem;
 }
+
+.section-subtitle {
+    font-size: 1rem;
+    color: var(--text-dark);
+    max-width: calc(var(--max-width) / 2);
+}
+
 .btn {
     padding: 0.75rem 2rem;
     outline: none;
     border: none;
     font-size: 1rem;
-    color: var(--extra-light);
-    background-color: var(--primary-color);
+    color: #e8ac2c;
+    background-color: #7e5316;
     border-radius: 5rem;
     cursor: pointer;
     transition: 0.3s;
@@ -55,11 +58,11 @@ body {
 
 .btn a{
     text-decoration: none;
-    color: var(--text-dark);
+    color: #e8ac2c;
 }
 
 .btn:hover {
-    background-color: #e8ac2c;
+    background-color: #7e5316;
 }
 
 a {
@@ -77,7 +80,7 @@ body {
 
 nav {
     padding: 1rem;
-    position: center;
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -87,6 +90,18 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
+
+.nav-logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+}
+
+.nav-logo span {
+    color: var(--primary-color);
+}
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -101,7 +116,7 @@ nav {
 }
 
 .link a:hover {
-    color: #e8ac2c;
+    color: var(--primary-color);
 }
 
 header {
@@ -119,11 +134,15 @@ header {
     position: center;
 }
 
+.header-image .img-1{
+    height: 350px;
+}
+
 .header-image img {
     position: center;
     top: 50%;
     left: 50%;
-    border: 0.5rem solid var(--extra-light);
+    border: 0.5rem solid var(--primary-color-dark);
     border-radius: 2rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -133,14 +152,16 @@ header {
     justify-content: center;
 }
 
-.header-image .img-1{
-    height: 350px;
-}
-
 .header-content>div {
     max-width: 400px;
     display: grid;
     gap: 1rem;
+}
+
+.header-content .sub-header {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
 }
 
 .header-content h5 {
