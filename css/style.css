@@ -1,11 +1,11 @@
 r@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
 html {
-    background-color: #d6b12e;
+    background-color: #f2d37d;
 }
 
 body {
-    background-color: #d6b12e;
+    background-color: #f2d37d;
 }
 
 }
@@ -150,4 +150,21 @@ header {
 
 .RESUMEN-subtitle {
     font-size: 0.7rem;
+}
+
+.OBJETIVOS-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.OBJETIVOS-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.OBJETIVOS-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
 }
