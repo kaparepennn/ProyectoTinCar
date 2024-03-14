@@ -75,6 +75,10 @@ img {
 }
 
 body {
+    bacground-color: var(--primary-color);
+}
+
+body {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -109,7 +113,7 @@ nav {
 }
 
 .header {
-    background-color: #f4d185;
+    background-color: var(--primary-color);
 }
 
 .header-container {
