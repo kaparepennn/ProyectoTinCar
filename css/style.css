@@ -123,10 +123,6 @@ header {
     position: relative;
 }
 
-.header-image .img-1{
-    height: 350px;
-}
-
 .header-image img {
     position: absolute;
     top: 50%;
@@ -141,30 +137,16 @@ header {
     justify-content: center;
 }
 
-.header-content>div {
+.header-content> div {
     max-width: 400px;
     display: grid;
     gap: 1rem;
 }
-
-.header-content .sub-header {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--primary-color);
-}
-
-.header-content h1 {
+.header-content h5 {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
     color: var(--text-dark);
-}
-
-.header-content .action-btns {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 1rem;
 }
 
 .PROYECTO {
