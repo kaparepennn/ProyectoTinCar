@@ -111,30 +111,60 @@ nav {
 header {
     background-color: var(--primary-color);
 }
-.header-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
 
-.header-content h5 {
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: 800;
-    color: var(--secundary-color)
+.header-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
 .header-image {
-    position: center;
+    position: relative;
 }
 
-.img {
-    position: center;
+.header-image .img-1{
+    height: 350px;
+}
+
+.header-image img {
+    position: absolute;
     top: 50%;
     left: 50%;
-    border: 0.3rem solid var(--primary-color-dark);
+    border: 0.5rem solid var(--extra-light);
     border-radius: 2rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.header-content .sub-header {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+.header-content .action-btns {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
 }
 
 .PROYECTO {
