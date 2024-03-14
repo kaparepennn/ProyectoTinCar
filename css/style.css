@@ -191,7 +191,7 @@ header {
 }
 
 .OBJETIVOS {
-    background-color: #f4d185;
+    background-color: var(--primary-color);
 }
 
 .OBJETIVOS-container :is(.section-title, .section-li, .view-all) {
