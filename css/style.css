@@ -143,6 +143,7 @@ nav {
     gap: 1rem;
 }
 .header-content h5 {
+    position: center;
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
