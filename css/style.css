@@ -218,13 +218,8 @@ header {
     font-weight: 600;
 }
 
-.CONTACTO{
-    background-color: var(--primary-color);
-}
-
 .CONTACTO-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
@@ -250,9 +245,6 @@ header {
     font-size: 1rem;
 }
 
-.footer{
-    background-color: var(--primary-color);
-}
 .footer-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
