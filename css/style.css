@@ -123,15 +123,11 @@ header {
     position: center;
 }
 
-.header-image .img-1{
-    height: 350px;
-}
-
 .header-image img {
     position: center;
     top: 50%;
     left: 50%;
-    border: 0.5rem solid var(--primary-color-dark);
+    border: 0.3rem solid var(--primary-color-dark);
     border-radius: 2rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -141,7 +137,7 @@ header {
     justify-content: center;
 }
 
-.header-content>div {
+.header-content> div {
     max-width: 400px;
     display: grid;
     gap: 1rem;
@@ -225,7 +221,7 @@ header {
 }
 
 .CONTACTO {
-    background-color: #626160;
+    background-color: #9e9e9e;
 }
 
 .CONTACTO-container{
@@ -242,7 +238,7 @@ header {
     width: 100%;
     max-width: 400px;
     display: flex;
-    background-color: #626160;
+    background-color: #9e9e9e;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
     border-radius: 5rem;
 }
