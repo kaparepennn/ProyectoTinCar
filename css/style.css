@@ -143,10 +143,10 @@ header {
     gap: 1rem;
 }
 
-.header-content .sub-header {
+.header-title {
     font-size: 1rem;
+    margin-bottom: 0.5rem;
     font-weight: 600;
-    color: var(--primary-color);
 }
 
 .header-content h5 {
@@ -154,7 +154,6 @@ header {
     line-height: 4rem;
     font-weight: 800;
     color: var(--secundary-color)
-    aling-text: center;
 }
 
 .PROYECTO {
