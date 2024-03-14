@@ -216,21 +216,94 @@ header {
     font-weight: 600;
 }
 
-.CONTACTO {
+.CANCIONES-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.CANCIONES-nav span {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-content: center;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 100%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.CANCIONES-nav span:hover {
+    color: var(--extra-light);
+    background-color: var(--primary-color);
+}
+
+.CANCIONES-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.CANCIONES-card {
+    overflow: hidden;
+    position: relative;
+    isolation: isolate;
+    cursor: pointer;
+}
+
+.CANCIONES-card img {
+    border-radius: 1rem;
+}
+
+.CANCIONES-details {
+    position: absolute;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    bottom: -6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: var(--extra-light);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.CANCIONES-card:hover .CANCIONES-details {
+    bottom: 1rem;
+}
+
+.CANCIONES-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.CANCIONES-subtitle {
+    font-size: 0.7rem;
+}
+
+
+
+
+.TECNOLOGIA {
     background-color: #9e9e9e;
 }
 
-.CONTACTO-container{
+.TECNOLOGIA-container{
     display: grid;
     gap: 2rem;
 }
 
-.CONTACTO-form{
+.TECNOLOGIA-form{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.CONTACTO-form form{
+.TECNOLOGIA-form form{
     width: 100%;
     max-width: 400px;
     display: flex;
@@ -238,7 +311,7 @@ header {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
     border-radius: 5rem;
 }
-.CONTACTO-form input{
+.TECNOLOGIA-form input{
     width: 100%;
     padding: 1rem;
     outline: none;
