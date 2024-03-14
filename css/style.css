@@ -276,7 +276,7 @@ header {
     transition: 0.3s;
 }
 .footer-col p:hover{
-    color: var(--primary-color);
+    color: #e8ac2c;
 }
 .footer-col p span{
     font-weight: 600;
