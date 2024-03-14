@@ -62,7 +62,7 @@
 }
 
 .btn:hover {
-    background-color: #7e5316;
+    background-color: var(--primary-color);
 }
 
 a {
@@ -109,7 +109,7 @@ nav {
 }
 
 header {
-    background-color: #f4d185;
+    background-color: var(--primary-color);
 }
 
 .header-container {
@@ -162,7 +162,7 @@ header {
 }
 
 .PROYECTO {
-    background-color: #f4d185;
+    background-color: var(--primary-color);
 }
 
 .PROYECTO {
@@ -179,7 +179,7 @@ header {
 }
 
 .RESUMEN {
-    background-color: #f4d185;
+    background-color: var(--primary-color);
 }
 
 .RESUMEN-container :is(.section-title, .section-subtitle, .view-all) {
@@ -219,7 +219,7 @@ header {
 }
 
 .CONTACTO{
-    background-color: #626160;
+    background-color: var(--primary-color);
 }
 
 .CONTACTO-container{
@@ -251,7 +251,7 @@ header {
 }
 
 .footer{
-    background-color: #f4d185;
+    background-color: var(--primary-color);
 }
 .footer-container{
     display: grid;
