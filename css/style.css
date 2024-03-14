@@ -224,6 +224,10 @@ header {
     font-weight: 600;
 }
 
+.CONTACTO {
+    background-color: #626160;
+}
+
 .CONTACTO-container{
     display: grid;
     gap: 2rem;
