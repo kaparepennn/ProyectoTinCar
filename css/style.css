@@ -189,6 +189,12 @@ header {
 .RESUMEN-subtitle {
     font-size: 0.7rem;
 }
+        
+.RESUMEN-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
 
 .OBJETIVOS {
     background-color: var(--primary-color);
@@ -206,15 +212,6 @@ header {
     font-weight: 600;
 }
 
-.RESUMEN-subtitle {
-    font-size: 0.7rem;
-}
-        
-.RESUMEN-ul {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
 .CONTACTO {
     background-color: var(--primary-color);
 }
@@ -239,7 +236,7 @@ header {
 
 .CONTACTO-nav span:hover {
     color: var(--extra-light);
-    background-color: var(--primary-color);
+    background-color: var(--secundary-color);
 }
 
 .CONTACTO-grid {
