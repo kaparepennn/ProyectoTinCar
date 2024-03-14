@@ -113,7 +113,7 @@ nav {
 }
 
 header {
-    background-color: #e8ac2c;
+    background-color: var(--primary-color);
 }
 
 .header-container {
@@ -248,7 +248,7 @@ header {
 }
 
 .footer{
-    background-color: #e8ac2c;
+    background-color: var(--primary-color);
 }
 
     
