@@ -200,6 +200,7 @@ header {
 
 .OBJETIVOS {
     background-color: #f4d185;
+}
 
 .OBJETIVOS-container :is(.section-title, .section-li, .view-all) {
     text-align: center;
@@ -212,7 +213,12 @@ header {
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
-.OBJETIVOS-li {
+
+.RESUMEN-subtitle {
+    font-size: 0.7rem;
+}
+        
+.RESUMEN-ul {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -245,6 +251,11 @@ header {
     font-size: 1rem;
 }
 
+.footer{
+    background-color: #f4d185;
+}
+
+    
 .footer-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
