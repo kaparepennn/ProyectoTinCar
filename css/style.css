@@ -215,13 +215,16 @@ header {
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
+.CONTACTO {
+    background-color: var(--primary-color);
+}
 
-.CANCIONES-nav {
+.CONTACTO-nav {
     display: flex;
     gap: 1rem;
 }
 
-.CANCIONES-nav span {
+.CONTACTO-nav span {
     width: 30px;
     height: 30px;
     display: grid;
@@ -234,29 +237,29 @@ header {
     transition: 0.3s;
 }
 
-.CANCIONES-nav span:hover {
+.CONTACTO-nav span:hover {
     color: var(--extra-light);
     background-color: var(--primary-color);
 }
 
-.CANCIONES-grid {
+.CONTACTO-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
-.CANCIONES-card {
+.CONTACTO-card {
     overflow: hidden;
     position: relative;
     isolation: isolate;
     cursor: pointer;
 }
 
-.CANCIONES-card img {
+.CONTACTO-card img {
     border-radius: 1rem;
 }
 
-.CANCIONES-details {
+.CONTACTO-details {
     position: absolute;
     width: calc(100% - 2rem);
     padding: 1rem;
@@ -272,17 +275,17 @@ header {
     transition: 0.3s;
 }
 
-.CANCIONES-card:hover .CANCIONES-details {
+.CONTACTO-card:hover .CONTACTO-details {
     bottom: 1rem;
 }
 
-.CANCIONES-title {
+.CONTACTO-title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
-.CANCIONES-subtitle {
+.CONTACTO-subtitle {
     font-size: 0.7rem;
 }
 
