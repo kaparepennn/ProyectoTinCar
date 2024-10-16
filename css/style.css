@@ -251,8 +251,8 @@ header {
 
 .CONTACTO-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(6, 2fr);
+    gap: 3rem;
 }
 
 .CONTACTO-card {
@@ -288,12 +288,12 @@ header {
 
 .CONTACTO-title {
     font-size: 1rem;
-    margin-bottom: 0.7rem;
-    font-weight: 800;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
 }
 
 .CONTACTO-subtitle {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
 }
 
 
