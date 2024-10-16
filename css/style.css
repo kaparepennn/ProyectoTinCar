@@ -226,6 +226,22 @@ header {
     background-color: var(--primary-color);
 }
 
+.CONTACTO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.CONTACTO-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.CONTACTO-subtitle {
+    font-size: 0.7rem;
+}
+
 .CONTACTO-nav {
     display: flex;
     gap: 1rem;
