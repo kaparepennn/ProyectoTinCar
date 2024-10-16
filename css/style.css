@@ -127,6 +127,11 @@ nav {
 	text-decoration: none;
 }
 
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
 header {
     background-color: var(--primary-color);
 }
