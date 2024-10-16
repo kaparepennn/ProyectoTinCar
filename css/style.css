@@ -283,17 +283,17 @@ header {
 }
 
 .CONTACTO-card:hover .CONTACTO-details {
-    bottom: 1rem;
+    bottom: 2rem;
 }
 
 .CONTACTO-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    font-weight: 700;
 }
 
 .CONTACTO-subtitle {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
 }
 
 
