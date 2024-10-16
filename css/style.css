@@ -200,7 +200,7 @@ header {
     background-color: var(--primary-color);
 }
 
-.OBJETIVOS-container :is(.section-title, .section-li, .view-all) {
+.OBJETIVOS-container :is(.section-title, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
