@@ -112,6 +112,22 @@ nav {
     color: #e8ac2c;
 }
 
+.submenu{
+	position: absolute;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
 header {
     background-color: var(--primary-color);
 }
