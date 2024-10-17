@@ -90,14 +90,14 @@ nav {
     transform: translateX(-50%);
     width: 100%;
     max-width: var(--max-width);
-
+    display: block;
+    position: absolute;
     align-items: center;
     justify-content: space-between;
 }
 
 .nav-links {
-    display: block;
-    position: absolute;
+
     list-style: none;
     align-items: center;
     gap: 1rem;
