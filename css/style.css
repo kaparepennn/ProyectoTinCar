@@ -137,6 +137,13 @@ nav {
   display: block;
 }
 
+.submenu li a{
+	display: block;
+	color: var(--text-dark);;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
 header {
     background-color: var(--primary-color);
 }
