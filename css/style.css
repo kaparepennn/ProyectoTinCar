@@ -125,33 +125,11 @@ nav {
     color: #e8ac2c;
 }
 
-.nav-submenus {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.submenu{
-	position: absolute;
-	background: #333333;
-	width: 120%;
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity 1.5s;
-}
-
-.submenu li a{
-	display: block;
-	padding: 15px;
-	color: #fff;
-	font-family: 'Open sans';
-	text-decoration: none;
-}
-
-.submenu li:hover .submenu{
-	visibility: visible;
-	opacity: 1;
+.submenu ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
 }
 
 header {
