@@ -125,17 +125,6 @@ nav {
     color: #e8ac2c;
 }
 
-.submenu a {
-    padding: 0 1rem;
-    color: var(--text-dark);
-    transition: 0.3s;
-    
-}
-
-.submenu a:hover {
-    color: #e8ac2c;
-}
-
 header {
     background-color: var(--primary-color);
 }
