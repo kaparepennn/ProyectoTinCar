@@ -125,7 +125,7 @@ nav {
     color: #e8ac2c;
 }
 
-.nav-submenu {
+.nav-submenus {
     list-style: none;
     display: flex;
     align-items: center;
@@ -149,7 +149,7 @@ nav {
 	text-decoration: none;
 }
 
-.link li:hover .submenu{
+.submenu li:hover .submenu{
 	visibility: visible;
 	opacity: 1;
 }
