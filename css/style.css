@@ -94,7 +94,11 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-
+.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
 .nav-links {
     list-style: none;
     display: flex;
