@@ -278,7 +278,7 @@ header {
 }
 .submenu-card {
     border-radius: 1rem;
-    overflow: hidden;
+    overflow: auto;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
