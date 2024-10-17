@@ -125,6 +125,18 @@ nav {
     color: #e8ac2c;
 }
 
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+}
+
+.link li:hover .submenu {
+  display: block;
+}
+
 header {
     background-color: var(--primary-color);
 }
