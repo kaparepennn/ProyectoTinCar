@@ -96,10 +96,11 @@ nav {
 }
 
 .nav-links {
+    display: inline;
     list-style: none;
     align-items: center;
     gap: 1rem;
-    display: inline;
+    
 }
 
 .link a {
