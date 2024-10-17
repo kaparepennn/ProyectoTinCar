@@ -262,39 +262,39 @@ header {
     font-weight: 600;
 }
 
-.submenu {
+.TERCERO {
     background-color: var(--primary-color);
 }
 
-.submenu-container{
+.TERCERO-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
-.iframe-submenu{
+.iframe-TERCERO{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
-.submenu-col{
+.TERCERO-col{
     display: grid;
     place-content: center;
     gap: 1rem;
 }
-.submenu-col iframe{
+.TERCERO-col iframe{
     border-radius: 1rem;
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
 }
-.submenu-content{
+.TERCERO-content{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.submenu-content > div{
+.TERCERO-content > div{
     max-width: 400px;
 }
-.submenu-content .section-subtitle{
+.TERCERO-content .section-subtitle{
     margin-bottom: 2rem;
 }
 
