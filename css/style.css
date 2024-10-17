@@ -144,7 +144,7 @@ nav {
 	text-decoration: none;
 }
 
-.menu li:hover .submenu{
+.link li:hover .submenu{
 	visibility: visible;
 	opacity: 1;
 }
@@ -259,16 +259,16 @@ header {
     font-weight: 600;
 }
 
-.SEMESTRE {
+.submenu {
     background-color: var(--primary-color);
 }
 
-.SEMESTRE-container{
+.submenu-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
-.iframe-SEMESTRES{
+.iframe-submenu{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
@@ -282,17 +282,17 @@ header {
     border-radius: 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
-.SEMESTRE-content{
+.submenu-content{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.SEMESTRE-content > div{
+.submenu-content > div{
     max-width: 400px;
 }
 
-.SEMESTRE-content .section-subtitle{
+.submenu-content .section-subtitle{
     margin-bottom: 2rem;
 }
 
