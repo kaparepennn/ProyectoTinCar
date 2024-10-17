@@ -90,7 +90,7 @@ nav {
     transform: translateX(-50%);
     width: 100%;
     max-width: var(--max-width);
-    display: flex;
+    display:none;
     align-items: center;
     justify-content: space-between;
 }
@@ -99,6 +99,7 @@ nav {
 				position:absolute;
 				min-width:140px;
 			}
+
 .nav-links {
     list-style: none;
     display: flex;
