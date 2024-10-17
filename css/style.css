@@ -90,18 +90,29 @@ nav {
     transform: translateX(-50%);
     width: 100%;
     max-width: var(--max-width);
-
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.nav-logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+}
+
+.nav-logo span {
+    color: var(--primary-color);
+}
+
 .nav-links {
-    display: block;
     list-style: none;
+    display: flex;
     align-items: center;
     gap: 1rem;
-    
 }
+
 
 .link a {
     padding: 0 1rem;
