@@ -235,11 +235,11 @@ header {
     font-weight: 600;
 }
 
-.SEMESTRES {
+.TERCER SEMESTRE {
     background-color: var(--primary-color);
 }
 
-.SEMESTRES-container{
+.TERCER SEMESTRE-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
@@ -249,26 +249,26 @@ header {
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
-.SEMESTRES-TRES{
+.TERCER SEMESTRE-TRES{
     display: grid;
     place-content: center;
     gap: 1rem;
 }
-.SEMESTRES-TRES embed{
+.TERCER SEMESTRE-TRES embed{
     border-radius: 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
-.SEMESTRES-content{
+.TERCER SEMESTRE-content{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.SEMESTRES-content > div{
+.TERCER SEMESTRE-content > div{
     max-width: 400px;
 }
 
-.SEMESTRES-content .section-subtitle{
+.TERCER SEMESTRE-content .section-subtitle{
     margin-bottom: 2rem;
 }
 
