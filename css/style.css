@@ -262,6 +262,10 @@ header {
     font-weight: 600;
 }
 
+.submenu {
+    background-color: var(--primary-color);
+}
+
 .submenu-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -279,7 +283,7 @@ header {
 }
 .submenu-col iframe{
     border-radius: 1rem;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
 }
 .submenu-content{
     display: flex;
