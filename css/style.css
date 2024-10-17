@@ -265,38 +265,21 @@ header {
 .submenu {
     background-color: var(--primary-color);
 }
-
-.submenu-container{
+.submenu-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.submenu-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    margin: 4rem 0;
 }
-.iframe-submenu{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
-}
-.SEMESTRE-TRES{
-    display: grid;
-    place-content: center;
-    gap: 1rem;
-}
-.SEMESTRE-TRES iframe{
+.submenu-card {
     border-radius: 1rem;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-}
-.submenu-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.submenu-content > div{
-    max-width: 400px;
-}
-
-.submenu-content .section-subtitle{
-    margin-bottom: 2rem;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 
