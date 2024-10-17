@@ -224,6 +224,10 @@ header {
     font-weight: 600;
 }
 
+.SEMESTRES {
+    background-color: var(--primary-color);
+}
+
 .SEMESTRES-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
