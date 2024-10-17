@@ -224,6 +224,40 @@ header {
     font-weight: 600;
 }
 
+.SEMESTRES-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.image-SEMESTRES{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.SEMESTRES-col{
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+}
+.SEMESTRES-col img{
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.SEMESTRES-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.SEMESTRES-content > div{
+    max-width: 400px;
+}
+
+.SEMESTRES-content .section-subtitle{
+    margin-bottom: 2rem;
+}
+
+
 .CONTACTO {
     background-color: var(--primary-color);
 }
