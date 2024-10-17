@@ -272,14 +272,14 @@ header {
 }
 .submenu-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     margin: 4rem 0;
 }
 .submenu-card {
     border-radius: 1rem;
     overflow: auto;
-    box-shadow: 6px 6px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 6px 35px rgba(0, 0, 0, 0.1);
 }
 
 
