@@ -99,13 +99,14 @@ nav {
     list-style: none;
     align-items: center;
     gap: 1rem;
+    display: inline;
 }
 
 .link a {
     padding: 0 1rem;
     color: var(--text-dark);
     transition: 0.3s;
-    display: inline;
+    
 }
 
 .link a:hover {
