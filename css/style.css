@@ -97,8 +97,6 @@ nav {
 
 .nav-links {
     list-style: none;
-    float:left;
-    position:absolute;
     align-items: center;
     gap: 1rem;
 }
