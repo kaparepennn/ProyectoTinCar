@@ -125,6 +125,13 @@ nav {
     color: #e8ac2c;
 }
 
+.dropdown {
+    display: inline-block;
+    position: relative;
+    
+}
+
+
 .submenu{
 	position: absolute;
 	background: #333333;
