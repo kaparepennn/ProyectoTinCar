@@ -105,7 +105,7 @@ nav {
     padding: 0 1rem;
     color: var(--text-dark);
     transition: 0.3s;
-    display: block;
+    display: inline;
 }
 
 .link a:hover {
