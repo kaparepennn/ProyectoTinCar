@@ -249,12 +249,12 @@ header {
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
-.SEMESTRES-col{
+.SEMESTRES-TRES{
     display: grid;
     place-content: center;
     gap: 1rem;
 }
-.SEMESTRES-col img{
+.SEMESTRES-TRES embed{
     border-radius: 1rem;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
