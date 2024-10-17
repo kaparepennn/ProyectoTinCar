@@ -262,25 +262,38 @@ header {
     font-weight: 600;
 }
 
-.submenu {
-    background-color: var(--primary-color);
-}
-.submenu-container :is(.section-title, .section-subtitle, .view-all) {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-.submenu-grid {
+.submenu-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
-    margin: 3rem 0;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
 }
-.submenu-card {
+.iframe-submenu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+.submenu-col{
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+}
+.submenu-col iframe{
     border-radius: 1rem;
-    overflow: auto;
-    box-shadow: 9px 9px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
+.submenu-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.submenu-content > div{
+    max-width: 400px;
+}
+.submenu-content .section-subtitle{
+    margin-bottom: 2rem;
+}
+
 
 
 .CONTACTO {
