@@ -281,6 +281,58 @@ header {
     font-weight: 600;
 }
 
+.PRIMERO {
+    background-color: var(--primary-color);
+}
+
+.PRIMERO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.PRIMERO-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.PRIMERO-subtitle {
+    font-size: 0.7rem;
+}
+        
+.PRIMERO-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.SEGUNDO {
+    background-color: var(--primary-color);
+}
+
+.SEGUNDO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.SEGUNDO-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.SEGUNDO-subtitle {
+    font-size: 0.7rem;
+}
+        
+.SEGUNDO-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
 .TERCERO {
     background-color: var(--primary-color);
 }
