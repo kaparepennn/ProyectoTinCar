@@ -3,7 +3,7 @@
 :root {
     --primary-color: #f4d185;
     --primary-color-dark: #7e5316;
-    --secondary-color: #73360d;
+    --secundary-color: #73360d;
     --text-dark: #241100;
     --text-light: #626160;
     --extra-light: #f8d3be;
@@ -372,10 +372,10 @@ header {
 
 
 .CONTACTO {
-    background-color: var(--primary-color);
+    background-color: var(--secundary-color);
 }
 
-.CONTACTO-container :is(.section-title, .section-subtitle, .view-all) {
+.CONTACTO-container :is(.section-title, .section-subtitle) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -462,10 +462,8 @@ header {
 }
 
 
-
-
 .TECNOLOGIA {
-    background-color: #9e9e9e;
+    background-color: var(--secundary-color);
 }
 
 .TECNOLOGIA-container{
