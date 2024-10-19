@@ -342,26 +342,31 @@ header {
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
+
 .iframe-TERCERO{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
 }
+
 .TERCERO-col{
     display: grid;
     place-content: center;
     gap: 1rem;
 }
+
 .TERCERO-col iframe{
     border-radius: 1rem;
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
 }
+
 .TERCERO-content{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
 .TERCERO-content > div{
     max-width: 400px;
 }
@@ -369,10 +374,8 @@ header {
     margin-bottom: 2rem;
 }
 
-
-
 .CONTACTO {
-    background-color: var(--secundary-color);
+    background-color: var(--primary-color);
 }
 
 .CONTACTO-container :is(.section-title, .section-subtitle) {
@@ -448,7 +451,7 @@ header {
 }
 
 .CONTACTO-card:hover .CONTACTO-details {
-    bottom: 2rem;
+    bottom: 1rem;
 }
 
 .CONTACTO-title {
