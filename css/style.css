@@ -125,24 +125,24 @@ nav {
     color: #e8ac2c;
 }
 
-
 .submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #444;
-}
-
-.link li:hover .submenu {
-  display: block;
+	position: absolute;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
 }
 
 .submenu li a{
 	display: block;
-	color: var(--text-dark);;
+	padding: 15px;
+	color: #fff;
 	text-decoration: none;
-	padding: 15px 15px 15px 20px;
+}
+
+.links li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
 }
 
 header {
