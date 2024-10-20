@@ -374,6 +374,50 @@ header {
     margin-bottom: 2rem;
 }
 
+.TERCER SEMESTRE {
+    background-color: var(--secondary-color);
+}
+
+.TERCER SEMESTRE-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCER SEMESTRE-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 4rem 0;
+}
+
+.TERCER SEMESTRE-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.TERCER SEMESTRE-details {
+    padding: 1rem;
+    display: grid;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    background-color: var(--extra-light);
+    cursor: pointer;
+}
+
+.TERCER SEMESTRE-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.TERCER SEMESTRE-subtitle {
+    font-size: 0.7rem;
+}
+
 .CONTACTO {
     background-color: var(--primary-color);
 }
@@ -414,7 +458,7 @@ header {
 
 .CONTACTO-nav span:hover {
     color: var(--extra-light);
-    background-color: var(--secundary-color);
+    background-color: var(--secondary-color);
 }
 
 .CONTACTO-grid {
