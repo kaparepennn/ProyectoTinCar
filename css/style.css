@@ -127,6 +127,7 @@ nav {
 
 .submenu {
 	position: absolute;
+	bacground: var(--primary-color);
 	width: 120%;
 	visibility: hidden;
 	opacity: 0;
@@ -137,6 +138,7 @@ nav {
 	display: block;
 	padding: 15px;
 	color: 	var(--text-dark);
+	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
 }
 
