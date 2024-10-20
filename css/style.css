@@ -125,6 +125,17 @@ nav {
     color: #e8ac2c;
 }
 
+.menu > li{
+    padding: 0 1rem;
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+
+menu li a: hover{
+    color: #e8ac2c;
+	transition: all .3s;
+}	
+
 .submenu {
 	position: absolute;
 	width: 120%;
@@ -140,7 +151,7 @@ nav {
 	text-decoration: none;
 }
 
-.links li:hover .submenu{
+.menu li:hover .submenu{
 	visibility: visible;
 	opacity: 1;
 }
