@@ -130,13 +130,13 @@ nav {
 	width: 120%;
 	visibility: hidden;
 	opacity: 0;
-	transition: opacity 1.5s;
+	transition: 0.3s;
 }
 
 .submenu li a{
 	display: block;
 	padding: 15px;
-	color: #fff;
+	color: 	var(--text-dark);
 	text-decoration: none;
 }
 
