@@ -106,6 +106,13 @@ nav {
     color: var(--primary-color);
 }
 
+.navegacion {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
