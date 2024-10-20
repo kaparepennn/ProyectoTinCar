@@ -192,40 +192,23 @@ header {
     background-color: var(--primary-color);
 }
 
-.PROYECTO {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    cursor: pointer;
-}
-
-.PROYECTO>span {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-dark);
-}
-
-.RESUMEN {
-    background-color: var(--primary-color);
-}
-
-.RESUMEN-container :is(.section-title, .section-subtitle, .view-all) {
+.PROYECTO-container :is(.section-title, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
 
-.RESUMEN-title {
+.PROYECTO-title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
 }
 
-.RESUMEN-subtitle {
+.PROYECTO-subtitle {
     font-size: 0.7rem;
 }
         
-.RESUMEN-ul {
+.PROYECTO-ul {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
