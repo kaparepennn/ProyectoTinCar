@@ -133,7 +133,6 @@ nav {
 
 menu li a: hover{
     color: #e8ac2c;
-	transition: all .3s;
 }	
 
 .submenu {
