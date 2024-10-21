@@ -10,16 +10,16 @@
             <nav> <!--Nav son los elementos que se van a ver en la barra de navegación -->
             <div class="nav-logo">TinCar <span>.</span></div>
                 <ul class="nav-links"> <!--Ul: "undored list" crear una losta no ordenada -->
-                        <li class="link"><a href="#PROYECTO">INICIO</a></li> <!--li: "item list" declara cada uno de los elementos de una lista-->
-                        <li class="link"><a href="#RESUMEN">RESUMEN</a></li> <!-- a: "anchor" crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.-->
-                        <li class="link"><a href="#OBJETIVOS">OBJETIVOS</a></li> <!-- href: “Hypertext REFerence” indica la relación entre páginas a los motores de búsqueda.-->
+                        <li class="link"><a href="index.html">INICIO</a></li> <!--li: "item list" declara cada uno de los elementos de una lista-->
+                        <!-- a: "anchor" crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.-->
+                        <li class="link"><a href="paginas/objetivos.html">OBJETIVOS</a></li> <!-- href: “Hypertext REFerence” indica la relación entre páginas a los motores de búsqueda.-->
+                        <li class="link"><a href="paginas/semestres.html">SEMESTRES</a>
+                                <ul class="submenu">
+                                        <li class="link"><a href="primero">PRIMER SEMESTRE</a></li>
+                                        <li class="link"><a href="paginas/segundo.html">SEGUNDO SEMESTRE</a></li>
+                                        <li class="link"><a href="paginas/tercero.html">TERCER SEMESTRE</a></li>
+                                </ul>
                         <li class="link"><a href="#TECNOLOGIA">TECNOLOGIA</a></li>
-                        <li class="link"><a href="#SEMESTRES">SEMESTRES</a>
-                          <ul class="submenus">
-                                <li class="submenu"><a href="#PRIMERO">PRIMER SEMESTRE</a></li>
-                                <li class="submenu"><a href="#SEGUNDO">SEGUNDO SEMESTRE</a></li>
-                                <li class="submenu"><a href="#TERCERO">TERCER SEMESTRE</a></li>
-                          </ul>
                         </li>
                 </ul>
                         <button class="btn"><a href="#CONTACTO">CONÓCENOS 😊</a></button>
@@ -27,7 +27,7 @@
             </nav>
         
        <header> <!--header: Es un elemento que representa un grupo de ayudas introductorias o de navegación.-->
-               <div class="section-container header-container" id="PROYECTO"> 
+               <div class="section-container header-container" id="INICIO"> 
                        <div class="header-content"> <!--El elemento "div" es el contenedor genérico para el contenido, "section": es un elemento semántico que te permite crear secciones independientes en las páginas web y "container": sirve principalmente para contener a otros elementos HTML. -->
                                <div> <h5>TINCAR 🚗📲</h5
                                     <div class="header-image">
@@ -38,42 +38,8 @@
                 </div>
         </header>
 
-         <section class="RESUMEN" id="RESUMEN">
-        <div class="section-container RESUMEN-container" >
-            <h2 class="section-title">RESÚMEN DEL PROYECTO</h2>
-            <p class="section-subtitle">
-                Queremos minimizar la mala movilidad causada por el mal estacionamiento en las vías públicas, 
-                va dirigido a los conductores que se vean en la necesidad de parquear en la vía pública por falta 
-                de estacionamientos visibles o cercanos, lo haremos a través de una aplicación que permite que 
-                las personas que tienen un espacio en su domicilio para poder parquear vehículos ofrezcan este 
-                lugar como parqueadero para que los conductores que se encuentren por la zona del arrendador 
-                puedan solicitar el servicio y contar con este parqueadero para no afectar las vías y evitar 
-                congestiones y quizá multas.
-            </p>
-        </div>
-            </section>
-
-
-        <section class="OBJETIVOS" id="OBJETIVOS">
-        <div class="section-container OBJETIVOS-container" >
-            <h2 class="section-title">OBJETIVO GENERAL</h2>
-              <p class="section-subtitle">
-                  Queremos minimizar la mala movilidad causada por el mal estacionamiento en las vías públicas, 
-                  va dirigido a los conductores que se vean en la necesidad de parquear en la vía pública por falta
-                  de estacionamientos visibles o cercanos, lo haremos a través de una aplicación que permite que
-                  las personas que tienen un espacio en su domicilio para poder parquear vehículos ofrezcan este
-                  lugar como parqueadero para que los conductores que se encuentren por la zona del arrendador
-                  puedan solicitar el servicio y contar con este parqueadero para no afectar las vías y evitar
-                  congestiones y quizá multas.
-              </p>
-          </div>
-          
-          
-            </section>
-            
-            
-               <section class="PRIMERO" id="PRIMER SEMESTRE">
-        <div class="section-container PRIMERO-container" >
+        <section class="primero" id="PRIMER SEMESTRE">
+        <div class="section-container primero-container" >
             <h2 class="section-title">INFORMACIÓN PRIMER SEMESTRE</h2>
               <p class="section-subtitle">
                   <br> Para este primer semestre trabajamos en varias cosas de acuerdo con lo propuesto en cada 
@@ -86,64 +52,8 @@
                   y modelo E-R (entidad relación) con los cuales nos guiamos para poder definir nuestra base de datos. <br>
                   
               </p>
-          </div>
-            </section>
-          
-               <section class="SEGUNDO" id="SEGUNDO SEMESTRE">
-        <div class="section-container SEGUNDO-container" >
-            <h2 class="section-title">INFORMACIÓN SEGUNDO SEMESTRE</h2>
-              <p class="section-subtitle">
-                  Para este segundo semestre trabajamos en varias cosas de acuerdo con lo propuesto en cada 
-                  asignatura.
-                  
-                  
-              </p>
-          </div>
-            </section>
-            
-            
-            <section class="TERCERO" id="TERCER SEMESTRE">
-        <div class="section-container TERCERO-container" >
-            <h2 class="section-title">INFORMACIÓN TERCER SEMESTRE</h2>
-              <p class="section-subtitle">
-                  <br> Para este tercer semestre trabajamos en varias cosas de acuerdo con lo propuesto en cada 
-                  asignatura. </br>
-                  
-                  <br> <strong> Implementación de proyectos: </strong> Aqui trabajamos en un documento llamado Scrum, trabajamos y 
-                  correjimos un poco el project que trabajamos en el promer semestre, alimentandolo de forma 
-                  correcta y corrigiendo las cosas que no habían quedado del todo claras y complementandolo con 
-                  nuevas tareas que eran crusiales.  </br> 
-                  
-                  <br> <strong> Procesimientos almacenados: </strong> En esta asignatura trabajamos el documento IEE de nuestro proyecto,
-                  en el cual definimos muchos procesos a definir, trabajamos funciones de programación en base de
-                  datos, también alimentamos nuestra base de dato con informacipn real.</br>
-                  
-              </p>
-          </div>
-            </section>
-            
-            
-            
-            <section class="TERCERO" id="TERCER SEMESTRE">
-        <div class="section-container TERCERO-container" >
-            <h2 class="section-title">TRABAJOS TERCER SEMESTRE</h2>
-            <p class="section-subtitle">
-                Hemos trabajado varios documentos importantes, como lo son el Scrum, y el IEEE.
-            </p>
-            <div class="TERCERO-grid">
-                <div class="TERCERO-card">
-                    <iframe src="Documentos/IEEE Tincar.pdf"> </iframe>
-                    </div>
-                </div>
-                <div class="TERCERO-card">
-                    <iframe src="Documentos/Scrum TinCar.pdf"> </iframe>
-                    </div>
-                </div>
-                </div>
-            </div>
         </div>
-    </section>
-
+        </section>
 
     <section class="section-container CONTACTO-container" id="CONTACTO">
             <div>
