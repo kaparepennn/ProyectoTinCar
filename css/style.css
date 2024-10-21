@@ -523,13 +523,13 @@ header {
 }
 
 .CONTACTO-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
 }
 
 .CONTACTO-subtitle {
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 
@@ -616,7 +616,7 @@ header {
 */
 
 .TECNOLOGIA {
-    background-color: var(--primary-color);
+    background-color: #FFDA97;
 }
 
 .TECNOLOGIA-container{
