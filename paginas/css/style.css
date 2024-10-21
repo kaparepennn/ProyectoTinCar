@@ -307,7 +307,7 @@ header {
 .header-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto;
     gap: 2rem;
 }
 
@@ -327,7 +327,7 @@ header {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
-    color: var(--secondary-color);
+    color: var(text-dark:);
 }
 
 .PRIMERO {
