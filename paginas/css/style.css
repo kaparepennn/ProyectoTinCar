@@ -337,41 +337,49 @@ header {
     background-color: var(--primary-color);
 }
 
-.TERCERO-container{
+.TERCERO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCERO-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.TERCERO-subtitle {
+    font-size: 0.7rem;
+}
+        
+.TERCERO-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.TERCER {
+    background-color: var(--secondary-color);
+}
+
+.TERCER-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCER-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    margin: 4rem 0;
 }
 
-.iframe-TERCERO{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
-}
-
-.TERCERO-col{
-    display: grid;
-    place-content: center;
-    gap: 1rem;
-}
-
-.TERCERO-col iframe{
+.TERCER-card {
     border-radius: 1rem;
-    box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.2);
-}
-
-.TERCERO-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.TERCERO-content > div{
-    max-width: 400px;
-}
-.TERCERO-content .section-subtitle{
-    margin-bottom: 2rem;
+    overflow: hidden;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .CONTACTO {
