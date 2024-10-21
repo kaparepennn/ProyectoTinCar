@@ -465,7 +465,7 @@ header {
 .CONTACTO-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .CONTACTO-card {
@@ -476,12 +476,26 @@ header {
 }
 
 .CONTACTO-card img {
-    border-radius: 2rem;
+    border-radius: 25% 10%;
     border: 0.5rem solid var(--secondary-color);
 }
 
 .CONTACTO-details {
-    position: absolute;
+    position: static;
+    width: calc(100% - 30px);
+    padding: 10px 50px 20px;
+    bottom: -6rem;
+    left: 50%;
+    transform: translateX(-100%);
+    text-align: center;
+    color: var(--text-dark);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: sepia(90%);
+    border-radius: 10px;
+    z-index: 1;
+    transition: 0.3s;
+
+/*position: absolute;
     width: calc(100% - 2rem);
     padding: 1rem;
     bottom: -6rem;
@@ -494,6 +508,8 @@ header {
     border-radius: 10px;
     z-index: 1;
     transition: 0.3s;
+*/
+	
 }
 
 .CONTACTO-card:hover .CONTACTO-details {
