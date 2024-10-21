@@ -330,19 +330,17 @@ header {
 .TERCER-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 0.5rem;
 }
 
 .TERCER-card {
     border-radius: 1rem;
     border: thick double var(--secondary-color);
     overflow: hidden;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .TERCER iframe{
     border-radius: 1rem;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 
