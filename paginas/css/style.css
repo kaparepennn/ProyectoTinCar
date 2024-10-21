@@ -546,7 +546,7 @@ header {
     .OBJETIVOS-grid{
         gap: 1rem;
     }
-    .TERCER-grid{
+    .TRES-grid{
         grid-template-columns: repeat(2, 1fr);
     }
 
