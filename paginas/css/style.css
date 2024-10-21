@@ -255,6 +255,35 @@ header {
     font-weight: 600;
 }
 
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
+
+.SEMESTRES {
+    background-color: var(--primary-color);
+}
+
+.SEMESTRES-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.SEMESTRES-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.SEMESTRES-subtitle {
+    font-size: 0.7rem;
+}
+        
+.SEMESTRES-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+
 .PRIMERO {
     background-color: var(--primary-color);
 }
