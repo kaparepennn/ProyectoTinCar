@@ -363,6 +363,7 @@ header {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    margin: 1em auto;
 }
 
 .CONTACTO-title {
@@ -402,7 +403,7 @@ header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
-    margin: 4rem 0;	
+    
 }
 
 .CONTACTO-card {
@@ -414,7 +415,7 @@ header {
 
 .CONTACTO-card img {
     border-radius: 1rem;
-    border: thick double var(--secondary-color);
+    border: thick double var(--secondary-color)
 }
 
 .CONTACTO-details {
