@@ -344,7 +344,7 @@ header {
 }
 
 .TERCER {
-    background-color: (--primary-color);
+    background-color: var(--primary-color);
 }
 
 .TERCER-container :is(.section-title, .section-subtitle, .view-all) {
@@ -356,7 +356,7 @@ header {
 .TERCER-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
     margin: 4rem 0;
 }
 
@@ -426,6 +426,7 @@ header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
+    margin: 4rem 0;	
 }
 
 .CONTACTO-card {
