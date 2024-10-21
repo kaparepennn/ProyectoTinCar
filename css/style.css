@@ -436,7 +436,7 @@ header {
 }
 
 .CONTACTO {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-dark);
 }
 
 .CONTACTO-container :is(.section-title, .section-subtitle) {
@@ -558,7 +558,7 @@ header {
 }
 
 .footer{
-    background-color: var(--primary-color-dark);
+    background-color: var(--primary-color);
 }
 
     
