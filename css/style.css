@@ -392,7 +392,7 @@ header {
 }
 
 .TERCER SEMESTRE {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .TERCER SEMESTRE-container :is(.section-title, .section-subtitle, .view-all) {
@@ -527,7 +527,7 @@ header {
 
 
 .TECNOLOGIA {
-    background-color: var(--secundary-color);
+    background-color: var(--secondary-color);
 }
 
 .TECNOLOGIA-container{
@@ -558,7 +558,7 @@ header {
 }
 
 .footer{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
     
