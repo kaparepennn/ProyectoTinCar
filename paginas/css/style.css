@@ -329,7 +329,7 @@ header {
 
 .TERCER-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto 2px;
     gap: 0.5rem;
 }
 
@@ -544,10 +544,10 @@ header {
     .header-image{
         min-height: 500px;
     }
-    .destination-grid{
+    .OBJETIVOS-grid{
         gap: 1rem;
     }
-    .trip-grid{
+    .TERCER-grid{
         grid-template-columns: repeat(2, 1fr);
     }
 
