@@ -436,7 +436,7 @@ header {
 .CONTACTO-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .CONTACTO-card {
@@ -448,6 +448,7 @@ header {
 
 .CONTACTO-card img {
     border-radius: 1rem;
+    border: thick double var(--secondary-color)
 }
 
 .CONTACTO-details {
@@ -480,9 +481,8 @@ header {
     font-size: 0.5rem;
 }
 
-
 .TECNOLOGIA {
-    background-color: var(--secundary-color);
+    background-color: #FFDA97;
 }
 
 .TECNOLOGIA-container{
