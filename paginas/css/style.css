@@ -268,7 +268,7 @@ header {
 .SEMESTRES-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto auto;
     gap: 2rem;
 }
 
@@ -281,6 +281,7 @@ header {
 .SEMESTRES-content>div {
     max-width: 400px;
     display: grid;
+    grid-template-columns: auto auto auto;
     gap: 1rem;
 }
 
