@@ -255,8 +255,6 @@ header {
     font-weight: 600;
 }
 
-/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/
-
 .SEMESTRES {
     background-color: var(--primary-color);
 }
@@ -283,6 +281,62 @@ header {
     font-weight: 600;
 }
 
+header {
+    background-color: var(--primary-color);
+}
+
+.header-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.header-image {
+    position: relative;
+}
+
+.header-image .img-1{
+    height: 350px;
+}
+
+.header-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0.5rem solid var(--secondary-color);
+    border-radius: 25% 10%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.header-image img:nth-child(1) {
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+}
+
+.header-image img:nth-child(2) {
+    max-width: 250px;
+    transform: translate(0%, -25%);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.header-content h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
 
 .PRIMERO {
     background-color: var(--primary-color);
