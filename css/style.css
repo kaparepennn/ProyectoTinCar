@@ -445,17 +445,17 @@ header {
     background-color: var(--primary-color);
 }
 
-.contacto {
+.CONTACTO {
     margin-right: auto;
     margin-left: auto;
 }
 
-..CONTACTO-nav {
+.CONTACTO-nav {
     display: flex;
     gap: 1rem;
 }
 
-..CONTACTO-nav span {
+.CONTACTO-nav span {
     width: 30px;
     height: 30px;
     display: grid;
@@ -468,30 +468,30 @@ header {
     transition: 0.3s;
 }
 
-..CONTACTO-nav span:hover {
+.CONTACTO-nav span:hover {
     color: var(--extra-light);
     background-color: var(--primary-color);
 }
 
-..CONTACTO-grid {
+.CONTACTO-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr) repeat(3, 1fr);;
     gap: 2rem;
 }
 
-..CONTACTO-card {
+.CONTACTO-card {
     overflow: hidden;
     position: relative;
     isolation: isolate;
     cursor: pointer;
 }
 
-.CANCIONES-card img {
+.CONTACTO-card img {
     border-radius: 1rem;
     border: thick double var(--secondary-color)
 }
 
-.CANCIONES-details {
+.CONTACTO-details {
     position: absolute;
     width: calc(100% - 2rem);
     padding: 1rem;
