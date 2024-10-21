@@ -360,7 +360,7 @@ header {
 }
 
 .TERCER {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 
 .TERCER-container :is(.section-title, .section-subtitle, .view-all) {
@@ -371,8 +371,8 @@ header {
 
 .TERCER-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
     margin: 4rem 0;
 }
 
