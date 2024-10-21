@@ -343,20 +343,8 @@ header {
     margin-left: auto;
 }
 
-.TERCERO-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
-
-.TERCERO-subtitle {
-    font-size: 0.7rem;
-}
-        
-.TERCERO-ul {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
+.TERCER {
+    background-color: (--primary-color);
 }
 
 .TERCER-container :is(.section-title, .section-subtitle, .view-all) {
@@ -367,7 +355,7 @@ header {
 
 .TERCER-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin: 4rem 0;
 }
