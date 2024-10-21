@@ -435,10 +435,6 @@ header {
     font-size: 0.7rem;
 }
 
-.CONTACTO {
-    background-color: var(--primary-color);
-}
-
 .TERCER SEMESTRE-container :is(.section-title, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
@@ -446,7 +442,7 @@ header {
 }
 
 .CONTACTO {
-    background-color: var(--primary-color-dark);
+    background-color: var(--primary-color);
 }
 
 .CONTACTO-container :is(.section-title, .section-subtitle) {
@@ -485,15 +481,13 @@ header {
 
 .CONTACTO-nav span:hover {
     color: var(--extra-light);
-    background-color: var(--secondary-color);
+    background-color: var(--secundary-color);
 }
 
 .CONTACTO-grid {
     display: grid;
-    /*height: 200px;*/
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-    /*grid-gap: 20px 5px;*/
 }
 
 .CONTACTO-card {
@@ -505,6 +499,7 @@ header {
 
 .CONTACTO-card img {
     border-radius: 1rem;
+    border: thick double var(--secondary-color)
 }
 
 .CONTACTO-details {
