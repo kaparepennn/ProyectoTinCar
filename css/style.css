@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+.section {
+    background-color: var(--primary-color);
+}
+
 .section-container {
     max-width: var(--max-width);
     margin: auto;
@@ -391,6 +395,7 @@ header {
     font-weight: 600;
 }
 
+/*
 .TERCER SEMESTRE {
     background-color: var(--primary-color);
 }
@@ -440,6 +445,7 @@ header {
     margin-right: auto;
     margin-left: auto;
 }
+*/
 
 .CONTACTO {
     background-color: var(--primary-color);
