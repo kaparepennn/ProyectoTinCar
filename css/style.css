@@ -490,10 +490,10 @@ header {
 
 .CONTACTO-grid {
     display: grid;
-    height: 200px;
+    /*height: 200px;*/
     grid-template-columns: repeat(5, 1fr);
-    /*gap: 1rem;*/
-    grid-gap: 20px 5px;
+    gap: 1rem;
+    /*grid-gap: 20px 5px;*/
 }
 
 .CONTACTO-card {
