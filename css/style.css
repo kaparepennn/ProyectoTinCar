@@ -435,10 +435,15 @@ header {
     font-size: 0.7rem;
 }
 
-.CONTACTO-container {
+.CONTACTO {
     background-color: var(--primary-color);
 }
 
+.TERCER SEMESTRE-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 .CONTACTO-nav {
     display: flex;
     gap: 1rem;
@@ -473,8 +478,6 @@ header {
     position: relative;
     isolation: isolate;
     cursor: pointer;
-    width: calc(10px + 100px);
-    padding: 10px 50px 20px;
 }
 
 .CONTACTO-card img {
