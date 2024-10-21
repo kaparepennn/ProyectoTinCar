@@ -151,8 +151,6 @@ nav {
 	opacity: 1;
 }
 
-/* Comentario segundo header*/
-
 header {
     background-color: var(--primary-color);
 }
@@ -236,8 +234,6 @@ header {
     border-radius: 100%;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
-
-/*Fin comentario segundo header*/
 
 .PROYECTO {
     background-color: var(--primary-color);
@@ -395,58 +391,6 @@ header {
     font-weight: 600;
 }
 
-/*
-.TERCER SEMESTRE {
-    background-color: var(--primary-color);
-}
-
-.TERCER SEMESTRE-container :is(.section-title, .section-subtitle, .view-all) {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.TERCER SEMESTRE-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    margin: 4rem 0;
-}
-
-.TERCER SEMESTRE-card {
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.TERCER SEMESTRE-details {
-    padding: 1rem;
-    display: grid;
-    gap: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-dark);
-    background-color: var(--extra-light);
-    cursor: pointer;
-}
-
-.TERCER SEMESTRE-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
-
-.TERCER SEMESTRE-subtitle {
-    font-size: 0.7rem;
-}
-
-.TERCER SEMESTRE-container :is(.section-title, .section-subtitle, .view-all) {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-*/
-
 .CONTACTO {
     background-color: var(--primary-color);
 }
@@ -455,6 +399,7 @@ header {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    margin: 1em auto;
 }
 
 .CONTACTO-title {
@@ -494,6 +439,7 @@ header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
+    
 }
 
 .CONTACTO-card {
@@ -537,89 +483,6 @@ header {
 .CONTACTO-subtitle {
     font-size: 0.5rem;
 }
-
-
-/*
-.CONTACTO {
-    background-color: var(--primary-color);
-}
-
-.CONTACTO {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.CONTACTO-nav {
-    display: flex;
-    gap: 1rem;
-}
-
-.CONTACTO-nav span {
-    width: 30px;
-    height: 30px;
-    display: grid;
-    place-content: center;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 100%;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.CONTACTO-nav span:hover {
-    color: var(--extra-light);
-    background-color: var(--primary-color);
-}
-
-.CONTACTO-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) repeat(3, 1fr);
-    gap: 1rem;
-}
-
-.CONTACTO-card {
-    overflow: hidden;
-    position: relative;
-    isolation: isolate;
-    cursor: pointer;
-}
-
-.CONTACTO-card img {
-    border-radius: 1rem;
-    border: thick double var(--secondary-color)
-}
-
-.CONTACTO-details {
-    position: absolute;
-    width: calc(100% - 2rem);
-    padding: 1rem;
-    bottom: -6rem;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: var(--text-dark);
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(4px);
-    border-radius: 10px;
-    z-index: 1;
-    transition: 0.3s;
-}
-
-.CONTACTO-card:hover .CONTACTO-details {
-    bottom: 1rem;
-}
-
-.CONTACTO-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
-
-.CONTACTO-subtitle {
-    font-size: 0.7rem;
-}
-*/
 
 .TECNOLOGIA {
     background-color: #FFDA97;
