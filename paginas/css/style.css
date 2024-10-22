@@ -284,6 +284,10 @@ header {
     justify-content: center;
 }
 
+.header-subtitle {
+    font-size: 0.7rem;
+}
+
 .header-content> div {
     max-width: 400px;
     display: grid;
@@ -316,7 +320,7 @@ header {
 .SEMESTRES-content>div {
     max-width: 400px;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
 }
 
