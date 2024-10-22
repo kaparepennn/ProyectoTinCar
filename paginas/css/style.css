@@ -469,9 +469,6 @@ header {
     color: var(--text-dark);
 }
 
-
-/*primero uni*/
-
 .PRIMEROUNO {
     background-color: var(--primary-color);
 }
@@ -504,9 +501,6 @@ header {
 
 .PRIMEROUNO-iframe {
     position: relative;
-}
-
-.PRIMEROUNO-iframe {
     height: 350px;
 }
 
@@ -516,7 +510,7 @@ header {
     right: 50%;
     max-width: 350px;
     transform: translate(-75%, -50%);
-    border: 0.3rem solid var(--secundary-color);
+    border: 0.5rem solid var(--secundary-color);
     border-radius: 2rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
