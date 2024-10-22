@@ -510,12 +510,6 @@ header {
     gap: 1rem;
 }
 
-.PRIMERO-content .sub-header {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--primary-color);
-}
-
 .PRIMERO-content h1 {
     font-size: 3rem;
     line-height: 4rem;
