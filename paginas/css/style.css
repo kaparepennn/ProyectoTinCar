@@ -262,16 +262,16 @@ header {
 .header-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
 
 .header-image {
-    position: relative;
+    position: auto;
 }
 
 .header-image img {
-    position: absolute;
+    position: center;
     top: 50%;
     right: 50%;
     border: 0.5rem solid var(--secundary-color);
