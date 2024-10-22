@@ -435,7 +435,8 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    border: 0.3rem solid var(--secundary-color);
+    border: 0.3rem solid;
+    color: var(--secundary-color);
     border-radius: 2rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -477,7 +478,7 @@ header {
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .PRIMEROUNO-content {
@@ -510,7 +511,8 @@ header {
     right: 50%;
     max-width: 350px;
     transform: translate(-75%, -50%);
-    border: 0.5rem solid var(--secundary-color);
+    border: 0.5rem double;
+    color: var(--secundary-color);
     border-radius: 2rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
