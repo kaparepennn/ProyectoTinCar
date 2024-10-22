@@ -185,6 +185,46 @@ header {
     font-weight: 800;
     color: var(--primary-color-dark);
 }
+.story {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.video-image {
+    position: relative;
+}
+
+.video-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.video-image span {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.video-image span a {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: red;
+    background: var(--extra-light);
+    border-radius: 100%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.story>span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
 
 .PROYECTO {
     background-color: var(--primary-color);
