@@ -7,12 +7,13 @@
 
 <body> <!--body: es la segunda y última de las dos partes en que se estructura un documento HTML.-->
 
-            <nav> <!--Nav son los elementos que se van a ver en la barra de navegación -->
+        
+        <nav> <!--Nav son los elementos que se van a ver en la barra de navegación -->
             <div class="nav-logo">TinCar <span>.</span></div>
                 <ul class="nav-links"> <!--Ul: "undored list" crear una losta no ordenada -->
-                        <li class="link"><a href="index.html">INICIO</a></li> <!--li: "item list" declara cada uno de los elementos de una lista-->
+                        <li class="link"><a href="ProyectoTinCar/PROYECTO">INICIO</a></li> <!--li: "item list" declara cada uno de los elementos de una lista-->
                         <!-- a: "anchor" crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL.-->
-                        <li class="link"><a href="paginas/objetivos.html">OBJETIVOS</a></li> <!-- href: “Hypertext REFerence” indica la relación entre páginas a los motores de búsqueda.-->
+                        <li class="link"><a href="paginas/objetivos">OBJETIVOS</a></li> <!-- href: “Hypertext REFerence” indica la relación entre páginas a los motores de búsqueda.-->
                         <li class="link"><a href="paginas/semestres.html">SEMESTRES</a>
                                 <ul class="submenu">
                                         <li class="link"><a href="primero">PRIMER SEMESTRE</a></li>
@@ -25,46 +26,39 @@
                         <button class="btn"><a href="#CONTACTO">CONÓCENOS 😊</a></button>
 
             </nav>
-        
-       <header> <!--header: Es un elemento que representa un grupo de ayudas introductorias o de navegación.-->
-               <div class="section-container header-container" id="INICIO"> 
-                       <div class="header-content"> <!--El elemento "div" es el contenedor genérico para el contenido, "section": es un elemento semántico que te permite crear secciones independientes en las páginas web y "container": sirve principalmente para contener a otros elementos HTML. -->
-                               <div> <h5>TINCAR 🚗📲</h5
-                                    <div class="header-image">
-                                        <img src="images/LogoTincarACT.jpg" alt="header">
-                                    </div>
-                              </div>
-                        </div>
+
+        <header> <!--Etiqueta "Header": Crear el título principal de la página -->
+        <div class="section-container header-container" id="PRIMERO">
+            <div class="header-content">
+                <div>
+                    <h2> PRIMER SEMESTRE </h2>
+                    <p class="section-subtitle">
+                        <br> En este semestre desarrollamos actividades fundamentales para el inicio del proyecto, tales como el método Pico, modelo entidad relación,}
+                            modelo relacional y por supuesto la base de datos para nuestro proyecto. </br>
+                    </p>
                 </div>
-        </header>
-
-        <section class="primero" id="PRIMER SEMESTRE">
-        <div class="section-container primero-container" >
-            <h2 class="section-title">INFORMACIÓN PRIMER SEMESTRE</h2>
-              <p class="section-subtitle">
-                  <br> Para este primer semestre trabajamos en varias cosas de acuerdo con lo propuesto en cada 
-                  asignatura. <br> <!--Utilizamos "<br> </br>" para hacer salto entre líneas, es decir, separar un parráfo de otro-->
-                   
-                  <br> <strong> Fundamentos de proyectos: </strong> Trabajamos en definir la estructura de trabajo de nuestro proyecto y el 
-                  método pico.<br> <!-- El uso de "<strong>,</strong>" es para hacer que un texto quede en negrilla-->
-                  
-                  <br> <strong> Modelo e implementación de bases de datos: </strong> Para esta asignatura trabajamos en el modelo relacional
-                  y modelo E-R (entidad relación) con los cuales nos guiamos para poder definir nuestra base de datos. <br>
-                  
-              </p>
-        </div>
-        </section>
-
-    <section class="section-container CONTACTO-container" id="CONTACTO">
-            <div>
-                <h2 class="section-title">CONOCE LOS CREADORES</h2>
-                <p class="section-subtitle">
-                Aquí encuentras información sobre nosotros, conocenos.
-                </p>
             </div>
         </div>
+        </header> <!--Etiqueta "Header": Crear el título principal de la página -->
+
+                        
+       <section class="PRIMERO" id="PRIMERO"> 
+               <div class="PRIMERO-image">
+                <img src="assets/header-1.jpg" alt="PRIMERO" class="img-1">
+                <img src="assets/header-2.jpg" alt="PRIMERO">
+            </div>
+            <div class="PRIMERO-content">
+                <div>
+                    <h1>Modelo e implementación de bases de datos</h1>
+                    <p class="section-subtitle">
+                        Para esta asignatura, trabajamos en la implementación de nuestro modelo E-R (Entidad relación), el modelo relacional y la base de datos
+                    </p>
+                </div>
+            </div>
+               </section>
+
         
-        <section class="CONTACTO" id="OBJETIVOS">
+    <section class="CONTACTO" id="CONTACTO">
             <div class="section-container CONTACTO-container" id="CONTACTO">
                 <h2 class="section-title">CONOCE LOS CREADORES</h2>
                 <p class="section-subtitle">
