@@ -460,7 +460,7 @@ header {
 } 
 */
 
-PRIMERO {
+.PRIMERO {
     background-color: var(--primary-color);
 }
 
