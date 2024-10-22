@@ -412,6 +412,7 @@ header {
     color: var(text-dark:);
 }
 
+/*
 .PRIMERO {
     background-color: var(--primary-color);
 }
@@ -456,9 +457,8 @@ header {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
-}
-
-/*Prueba formato header primero*/
+} 
+*/
 
 PRIMERO {
     background-color: var(--primary-color);
@@ -523,14 +523,6 @@ PRIMERO {
     color: var(--text-dark);
 }
 
-.PRIMERO-content .action-btns {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 1rem;
-}
-
-/*Primero fin prueba*/
 
 .SEGUNDO {
     background-color: var(--primary-color);
