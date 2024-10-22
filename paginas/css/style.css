@@ -273,7 +273,7 @@ header {
     background-color: var(--primary-color);
 }
 
-.OBJETIVOS-container :is(.section-title, .section-subtitle, .view-all) {
+.OBJETIVOS-container :is(h2, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -393,7 +393,7 @@ header {
     gap: 2rem;
 }
 
-.header-container :is(.section-title, .section-subtitle, .view-all) {
+.header-container :is(h2, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -429,7 +429,7 @@ header {
     gap: 2rem;
 }
 
-.PRIMERO-container :is(.section-title, .section-subtitle, .view-all) {
+.PRIMERO-container :is(h1, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -493,7 +493,7 @@ header {
     gap: 1rem;
 }
 
-.PRIMEROUNO-container :is(.section-title, .section-subtitle, .view-all) {
+.PRIMEROUNO-container :is(h1, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
