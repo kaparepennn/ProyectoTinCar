@@ -262,19 +262,19 @@ header {
 .header-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
 }
 
 .header-image {
-    position: auto;
+    position: center;
 }
 
 .header-image img {
     position: center;
     top: 50%;
     right: 50%;
-    border: 0.5rem solid var(--secundary-color);
+    border: 0.3rem solid var(--secundary-color);
     border-radius: 200px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -284,14 +284,16 @@ header {
     justify-content: center;
 }
 
-.header-subtitle {
-    font-size: 0.7rem;
-}
-
 .header-content> div {
     max-width: 400px;
     display: grid;
     gap: 1rem;
+}
+.header-content h5 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--primary-color-dark);
 }
 
 .SEMESTRES {
