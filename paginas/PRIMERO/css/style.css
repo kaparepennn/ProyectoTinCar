@@ -235,6 +235,126 @@ header {
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
+.PRIMERO {
+    background-color: var(--primary-color);
+}
+
+.PRIMERO-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.PRIMERO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.PRIMERO-image {
+    position: relative;
+}
+
+.PRIMERO-image .img-1{
+    height: 350px;
+}
+
+.PRIMERO-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0.3rem solid;
+    color: var(--secundary-color);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.PRIMERO-image img:nth-child(1) {
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+}
+
+.PRIMERO-image img:nth-child(2) {
+    max-width: 250px;
+    transform: translate(0%, -25%);
+}
+
+.PRIMERO-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PRIMERO-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.PRIMERO-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+.PRIMEROUNO {
+    background-color: var(--primary-color);
+}
+
+.PRIMEROUNO-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.PRIMEROUNO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.PRIMEROUNO-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PRIMEROUNO-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.PRIMEROUNO-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.PRIMEROUNO-iframe {
+    position: relative;
+    height: 350px;
+}
+
+.PRIMEROUNO-iframe {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+    border: 0.5rem double;
+    color: var(--secundary-color);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
 .CONTACTO {
     background-color: var(--primary-color);
 }
