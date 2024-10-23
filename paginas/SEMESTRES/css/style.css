@@ -158,35 +158,14 @@ header {
 .header-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto;
     gap: 2rem;
 }
 
-.header-image {
-    position: relative;
-}
-
-.header-image .img-1{
-    height: 350px;
-}
-
-.header-image img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border: 0.5rem solid var(--secondary-color);
-    border-radius: 25% 10%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
-.header-image img:nth-child(1) {
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-}
-
-.header-image img:nth-child(2) {
-    max-width: 250px;
-    transform: translate(0%, -25%);
+.header-container :is(.section-totle, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .header-content {
@@ -205,8 +184,8 @@ header {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
-    color: var(--secondary-color);
-}
+    color: var(text-dark:);
+
 
 .video-image {
     position: relative;
@@ -233,6 +212,52 @@ header {
     background: var(--extra-light);
     border-radius: 100%;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.SEMESTRES {
+    background-color: var(--primary-color);
+}
+
+.SEMESTRES-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.SEMESTRES-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+}
+
+.SEMESTRES-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SEMESTRES-content>div {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.SEMESTRES-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.SEMESTRES-subtitle {
+    font-size: 0.7rem;
+}
+        
+.SEMESTRES-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
 }
 
 .CONTACTO {
