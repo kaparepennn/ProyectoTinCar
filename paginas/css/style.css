@@ -542,6 +542,7 @@ header {
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
+/*
 .SEGUNDO {
     background-color: var(--primary-color);
 }
@@ -566,6 +567,148 @@ header {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
+}
+*/
+
+header {
+    background-color: var(--primary-color);
+}
+
+.header-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2rem;
+}
+
+.header-container :is(.section-totle, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.header-content h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(text-dark:);
+}
+
+.SEGUNDO {
+    background-color: var(--primary-color);
+}
+
+.SEGUNDO-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.SEGUNDO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.SEGUNDO-video {
+    position: relative;
+	
+.SEGUNDO-video source {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0.3rem solid;
+    color: var(--secundary-color);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.SEGUNDO-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SEGUNDO-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.SEGUNDO-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+}
+
+.SEGUNDO {
+    background-color: var(--primary-color);
+}
+
+.SEGUNDO-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.SEGUNDO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.SEGUNDO-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SEGUNDO-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.SEGUNDO-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.SEGUNDO-video {
+    position: relative;
+    height: 350px;
+}
+
+.SEGUNDO-video {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+    border: 0.5rem double;
+    color: var(--secundary-color);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .TERCERO {
