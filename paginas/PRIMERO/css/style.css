@@ -297,6 +297,9 @@ header {
     line-height: 4rem;
     font-weight: 800;
     color: var(--text-dark);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .PRIMEROUNO {
