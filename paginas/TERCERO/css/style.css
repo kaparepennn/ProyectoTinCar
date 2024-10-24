@@ -158,35 +158,8 @@ header {
 .header-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-}
-
-.header-image {
-    position: relative;
-}
-
-.header-image .img-1{
-    height: 350px;
-}
-
-.header-image img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border: 0.5rem solid var(--secondary-color);
-    border-radius: 25% 10%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
-.header-image img:nth-child(1) {
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-}
-
-.header-image img:nth-child(2) {
-    max-width: 250px;
-    transform: translate(0%, -25%);
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 .header-content {
@@ -205,6 +178,7 @@ header {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
+    text-align: center;
     color: var(--secondary-color);
 }
 
@@ -231,7 +205,7 @@ header {
 .TERCERO-TRES-grid {
     display: grid;
     grid-template-columns: repeat(2, 1rf);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .TERCERO-TRES-card {
@@ -242,6 +216,8 @@ header {
 
 .TERCERO-TRES iframe{
     border-radius: 1rem;
+    border: thick double var(--secondary-color);
+    overflow: hidden;
 }
 
 
@@ -254,126 +230,6 @@ header {
     color: var(--text-dark);
     background-color: rgba(255, 255, 255, 0.1);
     cursor: pointer;
-}
-
-.video-image {
-    position: relative;
-}
-
-.video-image img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
-.video-image span {
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-}
-
-.video-image span i {
-    padding: 0.5rem;
-    font-size: 1rem;
-    color: red;
-    background: var(--extra-light);
-    border-radius: 100%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
-.CONTACTO {
-    background-color: var(--primary-color);
-}
-
-.CONTACTO-container :is(.section-title, .section-subtitle) {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 1em auto;
-}
-
-.CONTACTO-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
-
-.CONTACTO-subtitle {
-    font-size: 0.5rem;
-}
-
-.CONTACTO-nav {
-    display: flex;
-    gap: 1rem;
-}
-
-.CONTACTO-nav span {
-    width: 30px;
-    height: 30px;
-    display: grid;
-    place-content: center;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 100%;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.CONTACTO-nav span:hover {
-    color: var(--extra-light);
-    background-color: var(--secundary-color);
-}
-
-.CONTACTO-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
-    
-}
-
-.CONTACTO-card {
-    overflow: hidden;
-    position: relative;
-    isolation: isolate;
-    cursor: pointer;
-}
-
-.CONTACTO-card img {
-    border-radius: 1rem;
-    border: thick double var(--secondary-color)
-}
-
-.CONTACTO-details {
-    position: absolute;
-    width: calc(100% - 2rem);
-    padding: 1rem;
-    bottom: -6rem;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: var(--text-dark);
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(4px);
-    border-radius: 10px;
-    z-index: 1;
-    transition: 0.3s;
-}
-
-.CONTACTO-card:hover .CONTACTO-details {
-    bottom: 1rem;
-}
-
-.CONTACTO-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-}
-
-.CONTACTO-subtitle {
-    font-size: 0.5rem;
 }
 
 .TECNOLOGIA {
