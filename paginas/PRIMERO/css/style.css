@@ -354,7 +354,7 @@ header {
     transform: translate(-75%, -50%);
     border: 0.5rem double;
     color: var(--secundary-color);
-    border-radius: 2rem solid var(--secondary-color);
+    border-radius: 5rem solid var(--secondary-color);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
