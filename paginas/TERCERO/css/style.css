@@ -192,36 +192,36 @@ header {
     margin-left: auto;
 }
 
-.TERCERO-TRES {
+.TERCEROTRES {
     background-color: var(--primary-color);
 }
 
-.TERCERO-TRES-container :is(.section-title, .section-subtitle) {
+.TERCEROTRES-container :is(.section-title, .section-subtitle) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
 
-.TERCERO-TRES-grid {
+.TERCEROTRES-grid {
     display: grid;
     grid-template-columns: repeat(2, 1rf);
     gap: 2rem;
 }
 
-.TERCERO-TRES-card {
+.TERCEROTRES-card {
     border-radius: 1rem;
     border: thick double var(--secondary-color);
     overflow: hidden;
 }
 
-.TERCERO-TRES iframe{
+.TERCEROTRES iframe{
     border-radius: 1rem;
     border: thick double var(--secondary-color);
     overflow: hidden;
 }
 
 
-.TERCERO-TRES-details {
+.TERCEROTRES-details {
     padding: 1rem;
     display: grid;
     gap: 0.5rem;
