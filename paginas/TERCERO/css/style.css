@@ -192,6 +192,13 @@ header {
     background-color: var(--primary-color);
 }
 
+.TERCEROUNO-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    
+}
+
 .TERCEROUNO-container {
     min-height: 100vh;
     display: grid;
@@ -200,28 +207,6 @@ header {
 }
 
 .TERCEROUNO-container :is(.section-title, .section-subtitle, .view-all) {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.TERCEROUNO-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.TERCEROUNOcontent>div {
-    max-width: 400px;
-    display: grid;
-    gap: 1rem;
-}
-
-.TERCEROUNO-content h1 {
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: 800;
-    color: var(--text-dark);
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -244,8 +229,37 @@ header {
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
+.TERCEROUNO-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TERCEROUNO-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCEROUNOcontent>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
 .TERCERODOS {
     background-color: var(--primary-color);
+}
+
+.TERCEROUNO-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    
 }
 
 .TERCERODOS-container {
@@ -259,6 +273,23 @@ header {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
+
+.TERCERODOS-iframe {
+    position: relative;
+    height: 350px;
+}
+
+.TERCERODOS-iframe {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+    border: 0.5rem double;
+    color: var(--secundary-color);
+    border-radius: 5rem solid var(--secondary-color);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .TERCERODOS-content {
@@ -283,25 +314,15 @@ header {
     margin-left: auto;
 }
 
-.TERCERODOS-iframe {
-    position: relative;
-    height: 350px;
-}
-
-.TERCERODOS-iframe {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-    border: 0.5rem double;
-    color: var(--secundary-color);
-    border-radius: 5rem solid var(--secondary-color);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
 .TERCEROTRES {
     background-color: var(--primary-color);
+}
+
+.TERCEROUNO-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    
 }
 
 .TERCEROTRES-container {
@@ -315,6 +336,23 @@ header {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
+
+.TERCEROTRES-iframe {
+    position: relative;
+    height: 350px;
+}
+
+.TERCEROTRES-iframe {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+    border: 0.5rem double;
+    color: var(--secundary-color);
+    border-radius: 5rem solid var(--secondary-color);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .TERCEROTRES-content {
@@ -337,23 +375,6 @@ header {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-}
-
-.TERCEROTRES-iframe {
-    position: relative;
-    height: 350px;
-}
-
-.TERCEROTRES-iframe {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-    border: 0.5rem double;
-    color: var(--secundary-color);
-    border-radius: 5rem solid var(--secondary-color);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .TECNOLOGIA {
