@@ -196,28 +196,57 @@ header {
     background-color: var(--primary-color);
 }
 
-.TERCEROTRES-container :is(.section-title, .section-subtitle) {
+.TERCEROTRES-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.TERCEROTRES-container :is(.section-title, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
 
-.TERCEROTRES-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1rf);
-    gap: 2rem;
+.TERCEROTRES-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.TERCEROTRES-card {
-    border-radius: 1rem;
-    border: thick double var(--secondary-color);
-    overflow: hidden;
+.TERCEROTRES-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.TERCEROTRES-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCEROTRES-iframe {
+    position: relative;
+    height: 350px;
 }
 
 .TERCEROTRES iframe{
-    border-radius: 1rem;
-    border: thick double var(--secondary-color);
     overflow: hidden;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+    border: 0.5rem solid var(--secondary-color);
+    color: var(--secundary-color);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 
