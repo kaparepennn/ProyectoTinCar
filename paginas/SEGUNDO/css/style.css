@@ -181,10 +181,11 @@ header {
 }
 
 .header-content h2 {
+    text-align: center;
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
-    color: var(text-dark:);
+    color: var(--secondary-color);
 }
 
 .video-image {
