@@ -188,62 +188,6 @@ header {
     color: var(--secondary-color);
 }
 
-.TERCERO {
-    background-color: var(--primary-color);
-}
-
-.TERCERO-container {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-}
-
-.TERCERO-container :is(.section-title, .section-subtitle, .view-all) {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.TERCERO-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.TERCERO-content>div {
-    max-width: 400px;
-    display: grid;
-    gap: 1rem;
-}
-
-.TERCERO-content h1 {
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: 800;
-    color: var(--text-dark);
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.TERCERO-iframe {
-    position: relative;
-    height: 350px;
-}
-
-.TERCERO-iframe {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-    border: 0.5rem double;
-    color: var(--secundary-color);
-    border-radius: 5rem solid var(--secondary-color);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
 .TERCEROUNO {
     background-color: var(--primary-color);
 }
@@ -267,7 +211,7 @@ header {
     justify-content: center;
 }
 
-.TERCEROUNO-content>div {
+.TERCEROUNOcontent>div {
     max-width: 400px;
     display: grid;
     gap: 1rem;
@@ -345,6 +289,62 @@ header {
 }
 
 .TERCERODOS-iframe {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+    border: 0.5rem double;
+    color: var(--secundary-color);
+    border-radius: 5rem solid var(--secondary-color);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.TERCEROTRES {
+    background-color: var(--primary-color);
+}
+
+.TERCEROTRES-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.TERCEROTRES-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCEROTRES-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TERCEROTRES-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.TERCEROTRES-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCEROTRES-iframe {
+    position: relative;
+    height: 350px;
+}
+
+.TERCEROTRES-iframe {
     position: absolute;
     top: 50%;
     right: 50%;
