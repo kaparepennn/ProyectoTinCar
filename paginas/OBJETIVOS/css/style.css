@@ -273,13 +273,13 @@ header {
 }
 
 .header-image {
-    position: right;
+    position: relative;
 }
 
 .header-image img {
     position: center;
-    top: 50%;
-    right: 50%;
+    top: 40%;
+    left: 40%;
     border: 0.1rem solid var(--secundary-color);
     border-radius: 200px;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
