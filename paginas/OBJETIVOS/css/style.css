@@ -182,6 +182,12 @@ header {
     color: var(--secondary-color);
 }
 
+.OBJETIVOS-container :is(.section-subtitle) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .OBJETIVOS {
     background-color: var(--primary-color);
 }
