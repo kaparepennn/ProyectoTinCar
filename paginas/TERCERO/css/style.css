@@ -186,16 +186,6 @@ header {
     background-color: var(--primary-color);
 }
 
-.TERCERO-container :is(.section-title, .section-subtitle, .view-all) {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.TERCERO {
-    background-color: var(--primary-color);
-}
-
 .TERCERO-container {
     min-height: 100vh;
     display: grid;
@@ -203,7 +193,7 @@ header {
     gap: 2rem;
 }
 
-.TERCERO-container :is(.section-title, .section-subtitle, .view-all) {
+.TERCERO-container :is(.section-title, .section-subtitle) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -236,7 +226,7 @@ header {
     height: 350px;
 }
 
-.TERCERO iframe{
+.TERCERO-iframe{
     overflow: hidden;
     position: absolute;
     top: 50%;
