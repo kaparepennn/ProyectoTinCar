@@ -166,27 +166,17 @@ header {
     position: relative;
 }
 
-.header-image .img-1{
+.header-image {
     height: 350px;
 }
 
-.header-image img {
+.header-image {
     position: absolute;
     top: 50%;
     left: 50%;
     border: 0.5rem solid var(--secondary-color);
     border-radius: 25% 10%;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
-.header-image img:nth-child(1) {
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-}
-
-.header-image img:nth-child(2) {
-    max-width: 250px;
-    transform: translate(0%, -25%);
 }
 
 .header-content {
@@ -208,31 +198,20 @@ header {
     color: var(--secondary-color);
 }
 
-.video-image {
-    position: relative;
+.header-container :is(.section-title, .section-subtitle) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.video-image img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
-.video-image span {
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-}
-
-.video-image span i {
-    padding: 0.5rem;
+.header-title {
     font-size: 1rem;
-    color: red;
-    background: var(--extra-light);
-    border-radius: 100%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.header-subtitle {
+    font-size: 0.7rem;
 }
 
 .OBJETIVOS {
