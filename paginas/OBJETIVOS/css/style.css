@@ -158,8 +158,8 @@ header {
 .header-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr);
-    gap: 1rem;
+    grid-template-columns: auto);
+    gap: 2rem;
 }
 
 .header-content {
