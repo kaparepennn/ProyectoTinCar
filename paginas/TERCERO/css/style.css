@@ -159,10 +159,10 @@ header {
     min-height: 100vh;
     display: grid;
     grid-template-columns: auto;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-.header-container :is(.section-title, .section-subtitle, .view-all) {
+.header-container :is(.section-totle, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -181,10 +181,10 @@ header {
 }
 
 .header-content h2 {
+    text-align: center;
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
-    text-align: center;
     color: var(--secondary-color);
 }
 
@@ -196,10 +196,10 @@ header {
     min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
-.TERCERO-container :is(.section-title, .section-subtitle) {
+.TERCERO-container :is(.section-title, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -217,7 +217,7 @@ header {
     gap: 1rem;
 }
 
-.TERCERO-content h2 {
+.TERCERO-content h1 {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
@@ -232,28 +232,128 @@ header {
     height: 350px;
 }
 
-.TERCERO-iframe{
-    overflow: hidden;
+.TERCERO-iframe {
     position: absolute;
     top: 50%;
     right: 50%;
     max-width: 350px;
     transform: translate(-75%, -50%);
-    border: 0.5rem solid var(--secondary-color);
+    border: 0.5rem double;
     color: var(--secundary-color);
-    border-radius: 2rem;
+    border-radius: 5rem solid var(--secondary-color);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
-.TERCERO-details {
-    padding: 1rem;
+.TERCEROUNO {
+    background-color: var(--primary-color);
+}
+
+.TERCEROUNO-container {
+    min-height: 100vh;
     display: grid;
-    gap: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.TERCEROUNO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCEROUNO-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TERCEROUNO-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.TERCEROUNO-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
     color: var(--text-dark);
-    background-color: rgba(255, 255, 255, 0.1);
-    cursor: pointer;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCEROUNO-iframe {
+    position: relative;
+    height: 350px;
+}
+
+.TERCEROUNO-iframe {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+    border: 0.5rem double;
+    color: var(--secundary-color);
+    border-radius: 5rem solid var(--secondary-color);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.TERCERODOS {
+    background-color: var(--primary-color);
+}
+
+.TERCERODOS-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.TERCERODOS-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCERODOS-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TERCERODOS-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.TERCERODOS-content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.TERCERODOS-iframe {
+    position: relative;
+    height: 350px;
+}
+
+.TERCERODOS-iframe {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    max-width: 350px;
+    transform: translate(-75%, -50%);
+    border: 0.5rem double;
+    color: var(--secundary-color);
+    border-radius: 5rem solid var(--secondary-color);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .TECNOLOGIA {
