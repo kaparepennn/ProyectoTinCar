@@ -235,6 +235,12 @@ header {
     justify-content: center;
 }
 
+.TERCEROUNO-content>div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
 .TERCEROUNO-content h1 {
     font-size: 3rem;
     line-height: 4rem;
@@ -243,12 +249,6 @@ header {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-}
-
-.TERCEROUNOcontent>div {
-    max-width: 400px;
-    display: grid;
-    gap: 1rem;
 }
 
 .TERCERODOS {
@@ -318,41 +318,17 @@ header {
     background-color: var(--primary-color);
 }
 
-.TERCEROUNO-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    
-}
-
-.TERCEROTRES-container {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-}
-
 .TERCEROTRES-container :is(.section-title, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
 
-.TERCEROTRES-iframe {
-    position: relative;
-    height: 350px;
-}
-
-.TERCEROTRES-iframe {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-    border: 0.5rem double;
-    color: var(--secundary-color);
-    border-radius: 5rem solid var(--secondary-color);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+.TERCEROTRES-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
 }
 
 .TERCEROTRES-content {
@@ -364,17 +340,24 @@ header {
 .TERCEROTRES-content>div {
     max-width: 400px;
     display: grid;
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
 }
 
-.TERCEROTRES-content h1 {
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: 800;
-    color: var(--text-dark);
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+.TERCEROTRES-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.TERCEROTRES-subtitle {
+    font-size: 0.7rem;
+}
+        
+.SEMESTRES-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
 }
 
 .TECNOLOGIA {
