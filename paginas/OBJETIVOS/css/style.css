@@ -162,6 +162,11 @@ header {
     gap: 2rem;
 }
 
+.header-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+
 .header-content {
     display: flex;
     align-items: center;
