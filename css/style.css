@@ -162,6 +162,12 @@ header {
     gap: 2rem;
 }
 
+.header-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .header-image {
     position: relative;
 }
@@ -202,6 +208,7 @@ header {
 }
 
 .header-content h2 {
+    text-align: center;
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 800;
