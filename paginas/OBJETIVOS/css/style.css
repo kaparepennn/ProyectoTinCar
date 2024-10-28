@@ -158,7 +158,7 @@ header {
 .header-container {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: auto);
+    grid-template-columns: auto;
     gap: 2rem;
 }
 
@@ -166,6 +166,7 @@ header {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+}
 
 .header-content {
     display: flex;
@@ -217,144 +218,6 @@ header {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
-}
-
-header {
-    background-color: var(--primary-color);
-}
-
-.header-container {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-}
-
-.header-image {
-    position: relative;
-}
-
-.header-image img {
-    position: center;
-    top: 40%;
-    left: 40%;
-    border: 0.1rem solid var(--secundary-color);
-    border-radius: 200px;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-content> div {
-    max-width: 400px;
-    display: grid;
-    gap: 1rem;
-}
-
-.header-content h5 {
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: 800;
-    color: var(--primary-color-dark);
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.CONTACTO {
-    background-color: var(--primary-color);
-}
-
-.CONTACTO-container :is(.section-title, .section-subtitle) {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 1em auto;
-}
-
-.CONTACTO-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
-}
-
-.CONTACTO-subtitle {
-    font-size: 0.5rem;
-}
-
-.CONTACTO-nav {
-    display: flex;
-    gap: 1rem;
-}
-
-.CONTACTO-nav span {
-    width: 30px;
-    height: 30px;
-    display: grid;
-    place-content: center;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-    border-radius: 100%;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.CONTACTO-nav span:hover {
-    color: var(--extra-light);
-    background-color: var(--secundary-color);
-}
-
-.CONTACTO-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 2rem;
-    
-}
-
-.CONTACTO-card {
-    overflow: hidden;
-    position: relative;
-    isolation: isolate;
-    cursor: pointer;
-}
-
-.CONTACTO-card img {
-    border-radius: 1rem;
-    border: thick double var(--secondary-color)
-}
-
-.CONTACTO-details {
-    position: absolute;
-    width: calc(100% - 2rem);
-    padding: 1rem;
-    bottom: -6rem;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: var(--text-dark);
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(4px);
-    border-radius: 10px;
-    z-index: 1;
-    transition: 0.3s;
-}
-
-.CONTACTO-card:hover .CONTACTO-details {
-    bottom: 1rem;
-}
-
-.CONTACTO-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-}
-
-.CONTACTO-subtitle {
-    font-size: 0.5rem;
 }
 
 .TECNOLOGIA {
