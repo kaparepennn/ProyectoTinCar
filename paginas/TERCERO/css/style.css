@@ -251,6 +251,8 @@ header {
     margin-left: auto;
 }
 
+/**/
+
 .TERCERODOS {
     background-color: var(--primary-color);
 }
@@ -450,9 +452,9 @@ header {
     .header-image{
         min-height: 500px;
     }
-    .destination-grid{
+    .TERCERODOS-grid{
         gap: 1rem;
     }
-    .trip-grid{
+    .TERCEROUNO-grid{
         grid-template-columns: repeat(2, 1fr);
     }
