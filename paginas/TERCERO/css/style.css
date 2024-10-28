@@ -242,9 +242,9 @@ header {
 }
 
 .TERCEROUNO-content h1 {
-    font-size: 3rem;
+    font-size: 1rem;
     line-height: 4rem;
-    font-weight: 800;
+    font-weight: 600;
     color: var(--text-dark);
     text-align: center;
     margin-right: auto;
@@ -307,9 +307,9 @@ header {
 }
 
 .TERCERODOS-content h1 {
-    font-size: 3rem;
+    font-size: 1rem;
     line-height: 4rem;
-    font-weight: 800;
+    font-weight: 600;
     color: var(--text-dark);
     text-align: center;
     margin-right: auto;
@@ -344,6 +344,16 @@ header {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+}
+
+.TERCEROTRES-content h1 {
+    font-size: 1rem;
+    line-height: 4rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .TERCEROTRES-title {
