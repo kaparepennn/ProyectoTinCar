@@ -296,7 +296,8 @@ header {
 
 .PRIMEROUNO-iframe {
     position: relative;
-    height: 350px;
+    height: 600px;
+    widt: 100%;
 }
 
 .PRIMEROUNO-iframe {
@@ -305,9 +306,8 @@ header {
     right: 50%;
     max-width: 350px;
     transform: translate(-75%, -50%);
-    border: 0.5rem double;
+    border: 0.5rem solid;
     color: var(--secundary-color);
-    border-radius: 5rem solid var(--secondary-color);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
