@@ -282,6 +282,11 @@ header {
     font-weight: 600;
 }
 
+embed {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
 .TERCEROTRES {
     background-color: var(--primary-color);
 }
@@ -328,6 +333,10 @@ header {
     font-weight: 600;
 }
 
+embed {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
 
 .TECNOLOGIA {
     background-color: #FFDA97;
