@@ -266,16 +266,6 @@ header {
     gap: 1rem;
 }
 
-.TERCERODOS-iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border: 0.3rem solid;
-    color: var(--secundary-color);
-    border-radius: 2rem;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-}
-
 .TERCERODOS-title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
@@ -320,16 +310,6 @@ header {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
-}
-
-.TERCEROTRES-iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border: 0.3rem solid;
-    color: var(--secundary-color);
-    border-radius: 2rem;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .TERCEROTRES-title {
