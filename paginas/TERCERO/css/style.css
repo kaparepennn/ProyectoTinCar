@@ -162,7 +162,7 @@ header {
     gap: 2rem;
 }
 
-.header-container :is(.section-title, .section-subtitle, .view-all) {
+.header-container :is(.section-totle, .section-subtitle, .view-all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -188,6 +188,8 @@ header {
     color: var(--secondary-color);
 }
 
+
+
 .TERCEROUNO {
     background-color: var(--primary-color);
 }
@@ -205,7 +207,7 @@ header {
     gap: 1rem;
 }
 
-.TERCEROTRES-content {
+.TERCEROUNO-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,16 +220,6 @@ header {
     gap: 1rem;
 }
 
-.TERCEROUNO-content h1 {
-    font-size: 1rem;
-    line-height: 4rem;
-    font-weight: 600;
-    color: var(--text-dark);
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .TERCEROUNO-title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
@@ -237,23 +229,15 @@ header {
 .TERCEROUNO-subtitle {
     font-size: 0.7rem;
 }
+        
+.TERCEROUNO-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
 
 .TERCERODOS {
     background-color: var(--primary-color);
-}
-
-.TERCEROUNO-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    
-}
-
-.TERCERODOS-container {
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
 }
 
 .TERCERODOS-container :is(.section-title, .section-subtitle, .view-all) {
@@ -262,21 +246,11 @@ header {
     margin-left: auto;
 }
 
-.TERCERODOS-iframe {
-    position: relative;
-    height: 350px;
-}
-
-.TERCERODOS-iframe {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-    border: 0.5rem double;
-    color: var(--secundary-color);
-    border-radius: 5rem solid var(--secondary-color);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+.TERCERODOS-container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
 }
 
 .TERCERODOS-content {
@@ -288,17 +262,38 @@ header {
 .TERCERODOS-content>div {
     max-width: 400px;
     display: grid;
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
 }
 
-.TERCERODOS-content h1 {
+.TERCERODOS-iframe {
+    position: relative;
+}
+
+.TERCERODOS-iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0.3rem solid;
+    color: var(--secundary-color);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.TERCERODOS-title {
     font-size: 1rem;
-    line-height: 4rem;
+    margin-bottom: 0.5rem;
     font-weight: 600;
-    color: var(--text-dark);
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+}
+
+.TERCERODOS-subtitle {
+    font-size: 0.7rem;
+}
+        
+.TERCERODOS-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
 }
 
 .TERCEROTRES {
@@ -331,14 +326,18 @@ header {
     gap: 1rem;
 }
 
-.TERCEROTRES-content h1 {
-    font-size: 1rem;
-    line-height: 4rem;
-    font-weight: 600;
-    color: var(--text-dark);
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+.TERCEROTRES-iframe {
+    position: relative;
+}
+
+.TERCEROTRES-iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0.3rem solid;
+    color: var(--secundary-color);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .TERCEROTRES-title {
@@ -350,6 +349,13 @@ header {
 .TERCEROTRES-subtitle {
     font-size: 0.7rem;
 }
+        
+.TERCEROTRES-ul {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
 
 .TECNOLOGIA {
     background-color: #FFDA97;
@@ -447,9 +453,9 @@ header {
     .header-image{
         min-height: 500px;
     }
-    .TERCERODOS-grid{
+    .destination-grid{
         gap: 1rem;
     }
-    .TERCEROUNO-grid{
+    .trip-grid{
         grid-template-columns: repeat(2, 1fr);
     }
