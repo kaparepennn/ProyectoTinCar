@@ -101,6 +101,7 @@ nav {
 
 hr {
     margin: 1rem 0;
+    background-color: #FFDA97;
     color: var(--secondary-color);
     border: 0;
     border-top: 2px solid;
