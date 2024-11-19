@@ -102,6 +102,7 @@ nav {
 hr {
     margin: 1rem 0;
     background-color: #FFDA97;
+    background: linear-gradient(to right, var(--secondary-color), #FFDA97, var(--primary-color));
     color: var(--secondary-color);
     border: 0;
     border-top: 2px solid;
