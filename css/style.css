@@ -99,6 +99,14 @@ nav {
     justify-content: space-between;
 }
 
+hr {
+    margin: 1rem 0;
+    color: var(--secondary-color);
+    border: 0;
+    border-top: 2px solid;
+    opacity: 0.25;
+}
+
 .nav-logo {
     font-size: 1.2rem;
     font-weight: 600;
