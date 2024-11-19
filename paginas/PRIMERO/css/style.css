@@ -78,6 +78,16 @@ img {
     display: block;
 }
 
+embed {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0.3rem solid;
+    color: var(--secundary-color);
+}
+
 body {
     bacground-color: var(--primary-color);
 }
