@@ -304,6 +304,16 @@ header {
     margin-left: auto;
 }
 
+.embed {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    border: 0.3rem solid;
+    color: var(--secundary-color);
+}
+
 .CONTACTO {
     background-color: var(--primary-color);
 }
