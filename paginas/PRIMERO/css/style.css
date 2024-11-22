@@ -81,7 +81,7 @@ img {
 embed {
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     border: 0.3rem solid;
@@ -302,23 +302,6 @@ header {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-}
-
-.PRIMEROUNO-iframe {
-    position: relative;
-    height: 600px;
-    widt: 100%;
-}
-
-.PRIMEROUNO-iframe {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    max-width: 350px;
-    transform: translate(-75%, -50%);
-    border: 0.5rem solid;
-    color: var(--secundary-color);
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .CONTACTO {
