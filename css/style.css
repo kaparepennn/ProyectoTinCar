@@ -99,18 +99,15 @@ nav {
     justify-content: space-between;
 }
 
+.custom-hr {
+    background-color: #FFDA97;
+}
+
 hr {
     margin: 1rem 0;
     background-color: #FFDA97;
-    background: linear-gradient(to right, var(--secondary-color), #ffffff, var(--primary-color));
+    height: 7px;
     color: var(--secondary-color);
-    border: 0;
-    border-top: 2px solid;
-    opacity: 0.25;
-}
-
-.custom-hr {
-    background-color: #FFDA97;
 }
 
 .nav-logo {
