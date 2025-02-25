@@ -409,6 +409,32 @@ header {
     font-weight: 600;
 }
 
+.CUARTO {
+    background-color: var(--primary-color);
+}
+
+.CUARTO-container :is(.section-title, .section-subtitle, .view-all) {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.CUARTO-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.CUARTO-subtitle {
+    font-size: 0.7rem;
+}
+        
+.CUARTO {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
 .CONTACTO {
     background-color: var(--primary-color);
 }
